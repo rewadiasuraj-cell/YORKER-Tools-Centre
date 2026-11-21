@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initDealerForm();
   initModals();
   initMobileNav();
+  initScrollspy();
 });
 
 // Cache for products catalog
@@ -231,11 +232,17 @@ window.openProductQuickView = async function(slugOrCode) {
 
   if (!modal || !body) return;
 
-  const product = catalog.find(p => p.slug === slugOrCode || (p.models && p.models.includes(slugOrCode)));
+  const query = String(slugOrCode).toLowerCase();
+  let product = catalog.find(p => {
+    if (p.slug && p.slug.toLowerCase() === query) return true;
+    if (p.slug && p.slug.toLowerCase().includes(query)) return true;
+    if (p.models && p.models.some(m => m.toLowerCase() === query || m.toLowerCase().replace(/[^a-z0-9]/g, '') === query.replace(/[^a-z0-9]/g, ''))) return true;
+    return false;
+  });
 
   if (!product) {
     // Fallback for standard featured hero
-    if (slugOrCode === 'pro-0835k' || slugOrCode === 'YK-PRO-0835K') {
+    if (query.includes('0835') || query.includes('demolition')) {
       renderModalContent({
         name: 'PRO-0835K Demolition Hammer',
         brand: 'Yorker Pro',
@@ -266,11 +273,14 @@ window.openProductQuickView = async function(slugOrCode) {
     }
   }
 
+  const catFallback = product.category_slugs && product.category_slugs[0] ? `assets/images/categories/${product.category_slugs[0].replace(/-/g, '_')}.png` : 'assets/images/hero-demolition-hammer.png';
+  const img = product.local_image || (product.images && product.images[0] ? product.images[0].src : catFallback);
+
   renderModalContent({
     name: product.name,
     brand: product.brand || 'Yorker',
     models: product.models,
-    image: product.images && product.images[0] ? product.images[0].src : 'assets/images/hero-demolition-hammer.png',
+    image: img,
     specsTable: specsRows
   });
 
@@ -389,6 +399,52 @@ function showToast(message) {
   setTimeout(() => {
     toast.classList.remove('show');
   }, 4000);
+}
+
+/* ========================================================
+   DYNAMIC SCROLLSPY (Updates active nav indicator)
+   ======================================================== */
+function initScrollspy() {
+  const navLinks = document.querySelectorAll('.site-nav .nav-link');
+  if (!navLinks || navLinks.length === 0) return;
+
+  const sections = [
+    { id: 'hero', link: 'products.html' },
+    { id: 'categories', link: 'products.html' },
+    { id: 'new-arrivals', link: '#new-arrivals' },
+    { id: 'series', link: 'products.html' },
+    { id: 'videos', link: '#videos' },
+    { id: 'about', link: '#about' },
+    { id: 'dealers', link: '#dealers' },
+    { id: 'catalogues', link: '#catalogues' },
+    { id: 'contact', link: '#contact' }
+  ];
+
+  function onScroll() {
+    const scrollPos = window.scrollY + 140;
+    let targetLink = '';
+
+    for (let i = sections.length - 1; i >= 0; i--) {
+      const el = document.getElementById(sections[i].id);
+      if (el && el.offsetTop <= scrollPos) {
+        targetLink = sections[i].link;
+        break;
+      }
+    }
+
+    if (targetLink) {
+      navLinks.forEach(link => {
+        const href = link.getAttribute('href');
+        if (href === targetLink) {
+          link.classList.add('active');
+        } else {
+          link.classList.remove('active');
+        }
+      });
+    }
+  }
+
+  window.addEventListener('scroll', onScroll, { passive: true });
 }
 
 function escapeHtml(str) {

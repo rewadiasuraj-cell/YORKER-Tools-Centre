@@ -224,13 +224,16 @@
         <a href="index.html" class="brand-logo">
           <img src="assets/images/logo.png" alt="Yorker Logo">
         </a>
+        <!-- Search Bar -->
         <div class="header-search">
           <form class="search-form" id="searchForm">
-            <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <circle cx="11" cy="11" r="8"></circle>
-              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-            </svg>
-            <input type="text" id="searchInput" class="search-input" placeholder="Search tools or model number">
+            <input type="text" id="searchInput" class="search-input" placeholder="Search tools or model number" autocomplete="off">
+            <button type="submit" class="search-btn" aria-label="Search">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
             <div id="searchSuggestions" class="search-suggestions"></div>
           </form>
         </div>
@@ -270,6 +273,10 @@
             <span>All Categories</span>
             <span class="filter-badge">293</span>
           </li>
+          <li class="filter-item" data-cat="new-arrivals">
+            <span>✨ New Arrivals</span>
+            <span class="filter-badge" style="background:var(--color-primary); color:#FFFFFF;">8</span>
+          </li>
           <li class="filter-item" data-cat="power-tools"><span>Power tools</span><span class="filter-badge">57</span></li>
           <li class="filter-item" data-cat="cordless-tools"><span>Cordless tools</span><span class="filter-badge">9</span></li>
           <li class="filter-item" data-cat="measuring-tools"><span>Measuring tapes</span><span class="filter-badge">26</span></li>
@@ -288,13 +295,13 @@
       <div class="filter-card">
         <div class="filter-title">Power Tool Series</div>
         <ul class="filter-list" id="seriesFilterList">
-          <li class="filter-item" data-series="all"><span>All Series</span></li>
-          <li class="filter-item" data-series="yorker"><span>Yorker Standard</span></li>
-          <li class="filter-item" data-series="pro"><span>Yorker Pro</span></li>
-          <li class="filter-item" data-series="gold"><span>Yorker Gold</span></li>
-          <li class="filter-item" data-series="googly"><span>Yorker Googly</span></li>
-          <li class="filter-item" data-series="firstchoice"><span>Yorker FirstChoice</span></li>
-          <li class="filter-item" data-series="pro-plus"><span>Yorker Pro+</span></li>
+          <li class="filter-item active" data-series="all"><span>All Series</span><span class="filter-badge">57</span></li>
+          <li class="filter-item" data-series="yorker"><span>Yorker Standard</span><span class="filter-badge">18</span></li>
+          <li class="filter-item" data-series="yorker-pro"><span>Yorker Pro</span><span class="filter-badge">14</span></li>
+          <li class="filter-item" data-series="yorker-gold"><span>Yorker Gold</span><span class="filter-badge">8</span></li>
+          <li class="filter-item" data-series="yorker-googly"><span>Yorker Googly</span><span class="filter-badge">9</span></li>
+          <li class="filter-item" data-series="yorker-firstchoice"><span>Yorker FirstChoice</span><span class="filter-badge">6</span></li>
+          <li class="filter-item" data-series="yorker-pro-plus"><span>Yorker Pro+</span><span class="filter-badge">2</span></li>
         </ul>
       </div>
     </aside>
@@ -395,17 +402,20 @@
       const queryParam = urlParams.get('q');
       const catParam = urlParams.get('cat');
       const seriesParam = urlParams.get('series');
+      const filterParam = urlParams.get('filter');
 
-      if (catParam) selectedCat = catParam;
-      if (seriesParam) selectedSeries = seriesParam;
+      if (filterParam === 'new') {
+        selectedCat = 'new-arrivals';
+      } else if (catParam) {
+        selectedCat = catParam;
+      }
 
-      // Update active category in sidebar
-      document.querySelectorAll('#categoryFilterList .filter-item').forEach(item => {
-        if (item.getAttribute('data-cat') === selectedCat) {
-          document.querySelectorAll('#categoryFilterList .filter-item').forEach(i => i.classList.remove('active'));
-          item.classList.add('active');
-        }
-      });
+      if (seriesParam) {
+        selectedSeries = seriesParam.startsWith('yorker-') ? seriesParam : (seriesParam === 'yorker' ? 'yorker' : 'yorker-' + seriesParam);
+      }
+
+      // Sync active state in sidebar
+      syncSidebarUI();
 
       // Filter input
       const filterInput = document.getElementById('catalogFilterInput');
@@ -418,28 +428,45 @@
         applyFilters();
       });
 
-      // Sidebar events
+      // Category sidebar events
       document.querySelectorAll('#categoryFilterList .filter-item').forEach(item => {
         item.addEventListener('click', () => {
-          document.querySelectorAll('#categoryFilterList .filter-item').forEach(i => i.classList.remove('active'));
-          item.classList.add('active');
           selectedCat = item.getAttribute('data-cat');
           currentPage = 1;
+          syncSidebarUI();
           applyFilters();
         });
       });
 
+      // Series sidebar events
       document.querySelectorAll('#seriesFilterList .filter-item').forEach(item => {
         item.addEventListener('click', () => {
-          document.querySelectorAll('#seriesFilterList .filter-item').forEach(i => i.classList.remove('active'));
-          item.classList.add('active');
           selectedSeries = item.getAttribute('data-series');
           currentPage = 1;
+          syncSidebarUI();
           applyFilters();
         });
       });
 
       applyFilters();
+    }
+
+    function syncSidebarUI() {
+      document.querySelectorAll('#categoryFilterList .filter-item').forEach(item => {
+        if (item.getAttribute('data-cat') === selectedCat) {
+          item.classList.add('active');
+        } else {
+          item.classList.remove('active');
+        }
+      });
+
+      document.querySelectorAll('#seriesFilterList .filter-item').forEach(item => {
+        if (item.getAttribute('data-series') === selectedSeries) {
+          item.classList.add('active');
+        } else {
+          item.classList.remove('active');
+        }
+      });
     }
 
     function applyFilters() {
@@ -450,24 +477,49 @@
         if (q) {
           const name = p.name ? p.name.toLowerCase() : '';
           const model = p.models ? p.models.join(' ').toLowerCase() : '';
-          if (!name.includes(q) && !model.includes(q)) return false;
+          const brand = p.brand ? p.brand.toLowerCase() : '';
+          if (!name.includes(q) && !model.includes(q) && !brand.includes(q)) return false;
+        }
+
+        // Category / New arrivals filter
+        if (selectedCat === 'new-arrivals') {
+          if (!p.is_new) return false;
+        } else if (selectedCat !== 'all') {
+          if (!p.category_slugs || !p.category_slugs.includes(selectedCat)) {
+            return false;
+          }
         }
 
         // Series filter
         if (selectedSeries !== 'all') {
-          const brand = p.brand ? p.brand.toLowerCase() : '';
-          const name = p.name ? p.name.toLowerCase() : '';
-          if (selectedSeries === 'pro' && !brand.includes('pro') && !name.includes('pro')) return false;
-          if (selectedSeries === 'gold' && !brand.includes('gold') && !name.includes('gold')) return false;
-          if (selectedSeries === 'googly' && !brand.includes('googly') && !name.includes('googly')) return false;
-          if (selectedSeries === 'firstchoice' && !brand.includes('firstchoice') && !name.includes('firstchoice')) return false;
-          if (selectedSeries === 'pro-plus' && !brand.includes('pro+') && !name.includes('pro+')) return false;
+          const normSeries = selectedSeries.replace(/^yorker-/, '');
+          const pSeries = p.series_slug ? p.series_slug.replace(/^yorker-/, '') : '';
+          const brand = (p.brand || '').toLowerCase();
+          const name = (p.name || '').toLowerCase();
+
+          if (p.series_slug) {
+            if (pSeries !== normSeries && p.series_slug !== selectedSeries) return false;
+          } else {
+            if (normSeries === 'pro' && !brand.includes('pro') && !name.includes('pro')) return false;
+            if (normSeries === 'gold' && !brand.includes('gold') && !name.includes('gold')) return false;
+            if (normSeries === 'googly' && !brand.includes('googly') && !name.includes('googly')) return false;
+            if (normSeries === 'firstchoice' && !brand.includes('firstchoice') && !name.includes('firstchoice')) return false;
+            if (normSeries === 'pro-plus' && !brand.includes('pro+') && !name.includes('pro+')) return false;
+            if (normSeries === 'yorker' && (brand.includes('pro') || brand.includes('gold') || brand.includes('googly') || brand.includes('firstchoice'))) return false;
+          }
         }
 
         return true;
       });
 
-      document.getElementById('catalogCount').textContent = `Showing ${filteredList.length} products`;
+      let filterTitle = 'products';
+      if (selectedCat === 'new-arrivals') filterTitle = 'new arrivals';
+      else if (selectedCat !== 'all') {
+        const activeCatItem = document.querySelector(`#categoryFilterList .filter-item[data-cat="${selectedCat}"] span`);
+        if (activeCatItem) filterTitle = activeCatItem.textContent.toLowerCase();
+      }
+
+      document.getElementById('catalogCount').textContent = `Showing ${filteredList.length} ${filterTitle}`;
       renderProductsGrid();
       renderPagination();
     }
@@ -479,25 +531,30 @@
       const pageItems = filteredList.slice(start, end);
 
       if (pageItems.length === 0) {
-        grid.innerHTML = '<div style="grid-column:1/-1; padding:40px; text-align:center; color:#64748B;">No products match your filter criteria.</div>';
+        grid.innerHTML = '<div style="grid-column:1/-1; padding:40px; text-align:center; color:#64748B;">No products match your filter criteria. <a href="products.html" style="color:var(--color-primary); font-weight:700; text-decoration:underline;">Reset all filters</a></div>';
         return;
       }
 
       grid.innerHTML = pageItems.map(p => {
-        const imgSrc = (p.images && p.images[0] && p.images[0].thumb) || (p.images && p.images[0] && p.images[0].src) || 'assets/images/hero-demolition-hammer.png';
+        const catFallback = p.category_slugs && p.category_slugs[0] ? `assets/images/categories/${p.category_slugs[0].replace(/-/g, '_')}.png` : 'assets/images/hero-demolition-hammer.png';
+        const imgSrc = p.local_image || (p.images && p.images[0] && p.images[0].thumb) || (p.images && p.images[0] && p.images[0].src) || catFallback;
         const modelStr = p.models && p.models[0] ? '#' + p.models[0] : '';
+        const newBadge = p.is_new ? '<span style="font-size:0.7rem; font-weight:800; background:#EA580C; color:#FFF; padding:2px 6px; border-radius:4px; margin-left:6px;">NEW</span>' : '';
         return `
           <div class="product-box" onclick="openProductQuickView('${p.slug}')">
             <div class="product-box-img">
-              <img src="${imgSrc}" alt="${escapeHtml(p.name)}" loading="lazy" onerror="this.src='assets/images/hero-demolition-hammer.png'">
+              <img src="${imgSrc}" alt="${escapeHtml(p.name)}" loading="lazy" onerror="this.src='${catFallback}'">
             </div>
             <div class="product-box-details">
-              <span class="product-box-brand">${escapeHtml(p.brand || 'Yorker')}</span>
+              <div>
+                <span class="product-box-brand">${escapeHtml(p.brand || 'Yorker')}</span>
+                ${newBadge}
+              </div>
               <h3 class="product-box-name">${escapeHtml(p.name)}</h3>
               <span class="product-box-model">${modelStr}</span>
               <div class="product-box-action">
                 <button type="button" class="btn-quick-spec">Quick Specs &rarr;</button>
-                <a href="https://wa.me/919999118454?text=${encodeURIComponent('Enquiry for ' + p.name)}" target="_blank" onclick="event.stopPropagation()" style="font-size:0.8125rem; font-weight:700; color:var(--color-primary);">WhatsApp &rarr;</a>
+                <a href="https://wa.me/919999118454?text=${encodeURIComponent('Enquiry for ' + p.name + (modelStr ? ' (' + modelStr + ')' : ''))}" target="_blank" onclick="event.stopPropagation()" style="font-size:0.8125rem; font-weight:700; color:var(--color-primary);">WhatsApp &rarr;</a>
               </div>
             </div>
           </div>
@@ -515,9 +572,22 @@
       }
 
       let html = '';
-      for (let i = 1; i <= Math.min(totalPages, 8); i++) {
+      const maxPagesToShow = 8;
+      const startPage = Math.max(1, currentPage - 3);
+      const endPage = Math.min(totalPages, startPage + maxPagesToShow - 1);
+
+      if (currentPage > 1) {
+        html += `<button type="button" class="page-btn" onclick="goToPage(${currentPage - 1})">&laquo; Prev</button>`;
+      }
+
+      for (let i = startPage; i <= endPage; i++) {
         html += `<button type="button" class="page-btn ${i === currentPage ? 'active' : ''}" onclick="goToPage(${i})">${i}</button>`;
       }
+
+      if (currentPage < totalPages) {
+        html += `<button type="button" class="page-btn" onclick="goToPage(${currentPage + 1})">Next &raquo;</button>`;
+      }
+
       container.innerHTML = html;
     }
 

@@ -27,29 +27,29 @@
           [
             "9358",
             "Yorker",
-            "Diamond File \u2013 Half Round",
-            "3\u00d7140\u00d75",
+            "Diamond File – Half Round",
+            "3×140×5",
             "200"
           ],
           [
             "9358",
             "Yorker",
-            "Diamond File \u2013 Half Round",
-            "3\u00d7140\u00d70",
+            "Diamond File – Half Round",
+            "3×140×0",
             "200"
           ],
           [
             "9358",
             "Yorker",
-            "Diamond File \u2013 Half Round",
-            "4\u00d7160\u00d75",
+            "Diamond File – Half Round",
+            "4×160×5",
             "200"
           ],
           [
             "9358",
             "Yorker",
-            "Diamond File \u2013 Half Round",
-            "5\u00d7180\u00d75",
+            "Diamond File – Half Round",
+            "5×180×5",
             "200"
           ]
         ]
@@ -66,7 +66,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": true,
+    "local_image": "assets/images/new-arrivals/diamond_files.png"
   },
   {
     "id": 8073,
@@ -97,49 +103,49 @@
             "9357",
             "Yorker",
             "Bastard",
-            "6\u201d",
+            "6”",
             "120"
           ],
           [
             "9357",
             "Yorker",
             "Bastard",
-            "8\u201d",
+            "8”",
             "120"
           ],
           [
             "9357",
             "Yorker",
             "Bastard",
-            "10\u201d",
+            "10”",
             "120"
           ],
           [
             "9357",
             "Yorker",
             "Bastard",
-            "12\u201d",
+            "12”",
             "60"
           ],
           [
             "9357",
             "Yorker",
             "Half Round",
-            "8\u201d",
+            "8”",
             "120"
           ],
           [
             "9357",
             "Yorker",
             "Half Round",
-            "10\u201d",
+            "10”",
             "120"
           ],
           [
             "9357",
             "Yorker",
             "Half Round",
-            "12\u201d",
+            "12”",
             "60"
           ]
         ]
@@ -156,7 +162,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": true,
+    "local_image": "assets/images/new-arrivals/hand_file_set.png"
   },
   {
     "id": 8069,
@@ -187,77 +199,77 @@
             "9356",
             "Yorker",
             "Bastard",
-            "6\u201d",
+            "6”",
             "480"
           ],
           [
             "9356",
             "Yorker",
             "Bastard",
-            "8\u201d",
+            "8”",
             "240"
           ],
           [
             "9356",
             "Yorker",
             "Bastard",
-            "10\u201d",
+            "10”",
             "120"
           ],
           [
             "9356",
             "Yorker",
             "Bastard",
-            "12\u201d",
+            "12”",
             "60"
           ],
           [
             "9356",
             "Yorker",
             "Half Round",
-            "6\u201d",
+            "6”",
             "480"
           ],
           [
             "9356",
             "Yorker",
             "Half Round",
-            "8\u201d",
+            "8”",
             "240"
           ],
           [
             "9356",
             "Yorker",
             "Half Round",
-            "10\u201d",
+            "10”",
             "120"
           ],
           [
             "9356",
             "Yorker",
             "Half Round",
-            "12\u201d",
+            "12”",
             "60"
           ],
           [
             "9356",
             "Yorker",
             "Wood Rasp",
-            "8\u201d",
+            "8”",
             "240"
           ],
           [
             "9356",
             "Yorker",
             "Wood Rasp",
-            "10\u201d",
+            "10”",
             "120"
           ],
           [
             "9356",
             "Yorker",
             "Wood Rasp",
-            "12\u201d",
+            "12”",
             "60"
           ]
         ]
@@ -284,7 +296,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": true,
+    "local_image": "assets/images/new-arrivals/prof_hand_files.png"
   },
   {
     "id": 8061,
@@ -313,13 +331,13 @@
           [
             "9355",
             "Yorker",
-            "10.5\u201d",
+            "10.5”",
             "40"
           ],
           [
             "9355",
             "Yorker",
-            "17\u201d",
+            "17”",
             "20"
           ]
         ]
@@ -330,7 +348,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 8060,
@@ -359,31 +383,31 @@
           [
             "9354",
             "Yorker",
-            "10\u201d",
+            "10”",
             "48"
           ],
           [
             "9354",
             "Yorker",
-            "12\u201d",
+            "12”",
             "36"
           ],
           [
             "9354",
             "Yorker",
-            "14\u201d",
+            "14”",
             "24"
           ],
           [
             "9354",
             "Yorker",
-            "18\u201d",
+            "18”",
             "16"
           ],
           [
             "9354",
             "Yorker",
-            "24\u201d",
+            "24”",
             "8"
           ]
         ]
@@ -394,7 +418,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 8059,
@@ -434,7 +464,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 8058,
@@ -463,7 +499,7 @@
           [
             "9351",
             "Yorker",
-            "12\u201d (4500 RPM)",
+            "12” (4500 RPM)",
             "90"
           ]
         ]
@@ -474,7 +510,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 8057,
@@ -503,7 +545,7 @@
           [
             "9350",
             "Yorker",
-            "Pro 8\u201d / 200mm",
+            "Pro 8” / 200mm",
             "60"
           ],
           [
@@ -520,7 +562,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 8055,
@@ -549,13 +597,13 @@
           [
             "9349",
             "Yorker",
-            "Glass Cutter \u2013 Medium Quality",
+            "Glass Cutter – Medium Quality",
             "1000"
           ],
           [
             "9349",
             "Yorker",
-            "Sunmica Cutter \u2013 Medium Quality",
+            "Sunmica Cutter – Medium Quality",
             "1000"
           ]
         ]
@@ -566,7 +614,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 8054,
@@ -603,7 +657,7 @@
           [
             "9347",
             "Yorker",
-            "Transparency \u2013 Single Pcs. Blister Packing",
+            "Transparency – Single Pcs. Blister Packing",
             "200"
           ],
           [
@@ -631,7 +685,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": true,
+    "local_image": "assets/images/new-arrivals/glass_cutter.png"
   },
   {
     "id": 8053,
@@ -660,31 +720,31 @@
           [
             "9345",
             "Yorker",
-            "1/2\u2033",
+            "1/2″",
             "72"
           ],
           [
             "9345",
             "Yorker",
-            "3/4\u2033",
+            "3/4″",
             "72"
           ],
           [
             "9345",
             "Yorker",
-            "1\u2033",
+            "1″",
             "72"
           ],
           [
             "9345",
             "Yorker",
-            "1 1/4\u2033",
+            "1 1/4″",
             "72"
           ],
           [
             "9345",
             "Yorker",
-            "1 1/2\u2033",
+            "1 1/2″",
             "72"
           ]
         ]
@@ -701,7 +761,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": true,
+    "local_image": "assets/images/new-arrivals/wooden_chisel.png"
   },
   {
     "id": 8052,
@@ -753,7 +819,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": true,
+    "local_image": "assets/images/new-arrivals/pvc_pipe_cutter.png"
   },
   {
     "id": 8050,
@@ -781,12 +853,12 @@
           [
             "9342",
             "Yorker",
-            "24\u201d"
+            "24”"
           ],
           [
             "9342",
             "Yorker",
-            "30\u201d"
+            "30”"
           ]
         ]
       }
@@ -802,7 +874,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": true,
+    "local_image": "assets/images/new-arrivals/masonry_saw.png"
   },
   {
     "id": 8048,
@@ -831,25 +909,25 @@
           [
             "9341",
             "Yorker",
-            "16\u201d",
+            "16”",
             "72"
           ],
           [
             "9341",
             "Yorker",
-            "18\u201d",
+            "18”",
             "72"
           ],
           [
             "9341",
             "Yorker",
-            "20\u201d",
+            "20”",
             "100"
           ],
           [
             "9341",
             "Yorker",
-            "24\u201d",
+            "24”",
             "100"
           ]
         ]
@@ -866,7 +944,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": true,
+    "local_image": "assets/images/new-arrivals/hand_saw.png"
   },
   {
     "id": 7981,
@@ -896,19 +980,19 @@
             "9209",
             "D Wall Cut Off Wheel",
             "Yorker",
-            "4\u201d"
+            "4”"
           ],
           [
             "9209",
             "D Wall Cut Off Wheel",
             "Yorker",
-            "4\u201d"
+            "4”"
           ],
           [
             "9209",
             "D Wall Cut Off Wheel",
             "Yorker",
-            "4\u201d"
+            "4”"
           ]
         ]
       }
@@ -929,7 +1013,11 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7980,
@@ -965,7 +1053,11 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7979,
@@ -996,7 +1088,7 @@
             "9207",
             "Dwall Super Thin Turbo",
             "Yorker",
-            "4\u201d Turbo",
+            "4” Turbo",
             "300 Pcs"
           ]
         ]
@@ -1023,7 +1115,11 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7977,
@@ -1053,13 +1149,13 @@
             "9206",
             "Dwall Marble Blade",
             "Yorker",
-            "4 \u00d7 9T, Rim"
+            "4 × 9T, Rim"
           ],
           [
             "9206",
             "Dwall Marble Blade",
             "Yorker",
-            "5 \u00d7 9T"
+            "5 × 9T"
           ]
         ]
       }
@@ -1085,7 +1181,11 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7959,
@@ -1116,35 +1216,35 @@
             "9204",
             "Gentleman Cut Off Wheel",
             "Yorker",
-            "4\u201d Gentleman Black D/Net",
+            "4” Gentleman Black D/Net",
             ""
           ],
           [
             "9204",
             "Gentleman Cut Off Wheel",
             "Yorker",
-            "4\u201d Gentleman Brown D/Net",
+            "4” Gentleman Brown D/Net",
             ""
           ],
           [
             "9204",
             "Gentleman Cut Off Wheel",
             "Yorker",
-            "4\u201d Gentleman Green D/Net",
+            "4” Gentleman Green D/Net",
             ""
           ],
           [
             "9204",
             "Gentleman Cut Off Wheel",
             "Yorker",
-            "14\u201d Gentleman Brown D/Net",
+            "14” Gentleman Brown D/Net",
             "50 Pcs"
           ],
           [
             "9204",
             "Gentleman Cut Off Wheel",
             "Yorker",
-            "14\u201d Gentleman Green D/Net",
+            "14” Gentleman Green D/Net",
             "50 Pcs"
           ]
         ]
@@ -1176,7 +1276,11 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7958,
@@ -1206,31 +1310,31 @@
             "9202",
             "Gentleman Fiber Disc 125mm",
             "Yorker",
-            "Grit \u2013 36"
+            "Grit – 36"
           ],
           [
             "9202",
             "Gentleman Fiber Disc 125mm",
             "Yorker",
-            "Grit \u2013 60"
+            "Grit – 60"
           ],
           [
             "9202",
             "Gentleman Fiber Disc 125mm",
             "Yorker",
-            "Grit \u2013 80"
+            "Grit – 80"
           ],
           [
             "9202",
             "Gentleman Fiber Disc 125mm",
             "Yorker",
-            "Grit \u2013 100"
+            "Grit – 100"
           ],
           [
             "9202",
             "Gentleman Fiber Disc 125mm",
             "Yorker",
-            "Grit \u2013 120"
+            "Grit – 120"
           ]
         ]
       }
@@ -1251,7 +1355,11 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7957,
@@ -1281,13 +1389,13 @@
             "9203",
             "Gentleman Grinding Wheel",
             "Yorker",
-            "4\u201d \u00d7 6mm Black"
+            "4” × 6mm Black"
           ],
           [
             "9203",
             "Gentleman Grinding Wheel",
             "Yorker",
-            "4\u201d \u00d7 6mm Green"
+            "4” × 6mm Green"
           ]
         ]
       }
@@ -1313,7 +1421,11 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7956,
@@ -1343,25 +1455,25 @@
             "9205",
             "Gentleman Eco Saw Blade",
             "Yorker",
-            "4 \u00d7 30T"
+            "4 × 30T"
           ],
           [
             "9205",
             "Gentleman Eco Saw Blade",
             "Yorker",
-            "5 \u00d7 30T"
+            "5 × 30T"
           ],
           [
             "9205",
             "Gentleman Eco Saw Blade",
             "Yorker",
-            "5 \u00d7 40T"
+            "5 × 40T"
           ],
           [
             "9205",
             "Gentleman Eco Saw Blade",
             "Yorker",
-            "4 \u00d7 40T"
+            "4 × 40T"
           ]
         ]
       }
@@ -1377,7 +1489,11 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7952,
@@ -1407,19 +1523,19 @@
             "9201",
             "3rd Eye Cut Off Wheel",
             "Yorker",
-            "4\u201d 3rd Eye Black D/Net"
+            "4” 3rd Eye Black D/Net"
           ],
           [
             "9201",
             "3rd Eye Cut Off Wheel",
             "Yorker",
-            "4\u201d 3rd Eye Brown D/Net"
+            "4” 3rd Eye Brown D/Net"
           ],
           [
             "9201",
             "3rd Eye Cut Off Wheel",
             "Yorker",
-            "4\u201d 3rd Eye Green D/Net"
+            "4” 3rd Eye Green D/Net"
           ]
         ]
       }
@@ -1445,7 +1561,11 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7942,
@@ -1475,7 +1595,7 @@
             "9102",
             "Snick Eco Diamond Saw Blade",
             "Yorker",
-            "4 \u00d7 9T"
+            "4 × 9T"
           ]
         ]
       }
@@ -1491,7 +1611,11 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7943,
@@ -1506,7 +1630,7 @@
     "models": [
       "9103"
     ],
-    "intro": "\u2013",
+    "intro": "–",
     "specs": [
       {
         "kind": "table",
@@ -1522,7 +1646,7 @@
             "9103",
             "Snick Cutting Wheel",
             "Yorker",
-            "4\u201d Snick Brown",
+            "4” Snick Brown",
             "50 Pcs Tin Box Packing"
           ]
         ]
@@ -1539,7 +1663,11 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7941,
@@ -1569,7 +1697,7 @@
             "9101",
             "Snick Super Thin Turbo",
             "Yorker",
-            "4\u201d Turbo (Hot Pressed)"
+            "4” Turbo (Hot Pressed)"
           ]
         ]
       }
@@ -1595,7 +1723,11 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7940,
@@ -1621,22 +1753,22 @@
           [
             "Snick Thin Kerf",
             "Yorker",
-            "4 \u00d7 30T"
+            "4 × 30T"
           ],
           [
             "Snick Thin Kerf",
             "Yorker",
-            "4 \u00d7 40T"
+            "4 × 40T"
           ],
           [
             "Snick Thin Kerf",
             "Yorker",
-            "5 \u00d7 30T"
+            "5 × 30T"
           ],
           [
             "Snick Thin Kerf",
             "Yorker",
-            "5 \u00d7 40T"
+            "5 × 40T"
           ]
         ]
       }
@@ -1657,7 +1789,11 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7939,
@@ -1687,13 +1823,13 @@
             "9001",
             "Googly TCT Blade",
             "Yorker",
-            "5 \u00d7 30T"
+            "5 × 30T"
           ],
           [
             "9001",
             "Googly TCT Blade",
             "Yorker",
-            "4 \u00d7 30T"
+            "4 × 30T"
           ]
         ]
       }
@@ -1714,7 +1850,11 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7938,
@@ -1744,19 +1884,19 @@
             "9002",
             "Googly Cut Off Wheel",
             "Yorker",
-            "4\u201d Googly (Brown) D/Net"
+            "4” Googly (Brown) D/Net"
           ],
           [
             "9002",
             "Googly Cut Off Wheel",
             "Yorker",
-            "4\u201d Googly (Green) D/Net"
+            "4” Googly (Green) D/Net"
           ],
           [
             "9002",
             "Googly Cut Off Wheel",
             "Yorker",
-            "4\u201d Googly (Black) D/Net"
+            "4” Googly (Black) D/Net"
           ]
         ]
       }
@@ -1787,7 +1927,11 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7924,
@@ -1818,14 +1962,14 @@
             "9001",
             "Googly Marble Blade",
             "Yorker",
-            "5 \u00d7 9T",
+            "5 × 9T",
             "New Arrival"
           ],
           [
             "9001",
             "Googly Marble Blade",
             "Yorker",
-            "4 \u00d7 9T",
+            "4 × 9T",
             "New Arrival"
           ]
         ]
@@ -1852,7 +1996,11 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7916,
@@ -1881,73 +2029,73 @@
           [
             "8028",
             "Yorker",
-            "14 \u00d7 250 Point",
+            "14 × 250 Point",
             "100 Pcs"
           ],
           [
             "8028",
             "Yorker",
-            "14 \u00d7 250 Flat",
+            "14 × 250 Flat",
             "100 Pcs"
           ],
           [
             "8028",
             "Yorker",
-            "17 \u00d7 280 Flat",
+            "17 × 280 Flat",
             "50 Pcs"
           ],
           [
             "8028",
             "Yorker",
-            "17 \u00d7 280 Point",
+            "17 × 280 Point",
             "50 Pcs"
           ],
           [
             "8028",
             "Yorker",
-            "18 \u00d7 450 Point",
+            "18 × 450 Point",
             "25 Pcs"
           ],
           [
             "8028",
             "Yorker",
-            "18 \u00d7 450 Flat",
+            "18 × 450 Flat",
             "25 Pcs"
           ],
           [
             "8028",
             "Yorker",
-            "18 \u00d7 450 \u00d7 75 Flat",
+            "18 × 450 × 75 Flat",
             "25 Pcs"
           ],
           [
             "8028",
             "Yorker",
-            "18 \u00d7 300 \u00d7 75",
+            "18 × 300 × 75",
             "50 Pcs"
           ],
           [
             "8028",
             "Yorker",
-            "18 \u00d7 400 Point",
+            "18 × 400 Point",
             "50 Pcs"
           ],
           [
             "8028",
             "Yorker",
-            "18 \u00d7 600 Point",
+            "18 × 600 Point",
             "50 Pcs"
           ],
           [
             "8028",
             "Yorker",
-            "30 \u00d7 400 Point (Actual Size 30\u00d7360)",
+            "30 × 400 Point (Actual Size 30×360)",
             "50 Pcs"
           ],
           [
             "8028",
             "Yorker",
-            "30 \u00d7 400 Point (Full Size)",
+            "30 × 400 Point (Full Size)",
             "25 Pcs"
           ]
         ]
@@ -1964,7 +2112,14 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools",
+      "sds-drill-bits-chisels"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7809,
@@ -2094,7 +2249,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "sds-drill-bits-chisels"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7808,
@@ -2220,7 +2381,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "sds-drill-bits-chisels"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7807,
@@ -2282,7 +2449,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "sds-drill-bits-chisels"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7806,
@@ -2361,7 +2534,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "sds-drill-bits-chisels"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7790,
@@ -2422,7 +2601,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "sds-drill-bits-chisels"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7789,
@@ -2489,7 +2674,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "sds-drill-bits-chisels"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7788,
@@ -2621,7 +2812,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "sds-drill-bits-chisels"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7787,
@@ -2758,7 +2955,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "sds-drill-bits-chisels"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7782,
@@ -2790,434 +2993,434 @@
             "3001",
             "Yorker",
             "Hammer Bit",
-            "4 \u00d7 110",
+            "4 × 110",
             "500 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "5 \u00d7 110",
+            "5 × 110",
             "500 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "5 \u00d7 160",
+            "5 × 160",
             "500 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "6 \u00d7 110",
+            "6 × 110",
             "500 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "6 \u00d7 160",
+            "6 × 160",
             "500 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "6 \u00d7 210",
+            "6 × 210",
             "300 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "6 \u00d7 260",
+            "6 × 260",
             "300 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "6 \u00d7 310",
+            "6 × 310",
             "200 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "6.5 \u00d7 110",
+            "6.5 × 110",
             "500 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "6.5 \u00d7 160",
+            "6.5 × 160",
             "500 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "8 \u00d7 110",
+            "8 × 110",
             "500 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "8 \u00d7 160",
+            "8 × 160",
             "500 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "8 \u00d7 210",
+            "8 × 210",
             "300 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "8 \u00d7 260",
+            "8 × 260",
             "300 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "8 \u00d7 310",
+            "8 × 310",
             "200 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "10 \u00d7 110",
+            "10 × 110",
             "500 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "10 \u00d7 160",
+            "10 × 160",
             "400 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "10 \u00d7 210",
+            "10 × 210",
             "250 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "10 \u00d7 260",
+            "10 × 260",
             "250 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "10 \u00d7 310",
+            "10 × 310",
             "200 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "10 \u00d7 350",
+            "10 × 350",
             "100 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "10 \u00d7 360",
+            "10 × 360",
             "100 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "12 \u00d7 160",
+            "12 × 160",
             "400 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "12 \u00d7 210",
+            "12 × 210",
             "300 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "12 \u00d7 260",
+            "12 × 260",
             "200 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "12 \u00d7 310",
+            "12 × 310",
             "200 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "12 \u00d7 360",
+            "12 × 360",
             "100 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "12 \u00d7 450",
+            "12 × 450",
             "100 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "13 \u00d7 260",
+            "13 × 260",
             "200 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "14 \u00d7 160",
+            "14 × 160",
             "250 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "14 \u00d7 210",
+            "14 × 210",
             "100 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "14 \u00d7 260",
+            "14 × 260",
             "125 Pcs"
           ],
           [
             "3001",
             "Yorker",
             "Hammer Bit",
-            "14 \u00d7 310",
+            "14 × 310",
             "200 Pcs"
           ],
           [
             "3002",
             "Yorker",
             "Hammer Bit",
-            "14 \u00d7 260",
+            "14 × 260",
             "125 Pcs"
           ],
           [
             "3002",
             "Yorker",
             "Hammer Bit",
-            "14 \u00d7 310",
+            "14 × 310",
             "200 Pcs"
           ],
           [
             "3002",
             "Yorker",
             "Hammer Bit",
-            "14 \u00d7 350",
+            "14 × 350",
             "100 Pcs"
           ],
           [
             "3002",
             "Yorker",
             "Hammer Bit",
-            "14 \u00d7 360",
+            "14 × 360",
             "100 Pcs"
           ],
           [
             "3002",
             "Yorker",
             "Hammer Bit",
-            "14 \u00d7 450",
+            "14 × 450",
             "100 Pcs"
           ],
           [
             "3002",
             "Yorker",
             "Hammer Bit",
-            "16 \u00d7 160",
+            "16 × 160",
             "250 Pcs"
           ],
           [
             "3002",
             "Yorker",
             "Hammer Bit",
-            "16 \u00d7 210",
+            "16 × 210",
             "200 Pcs"
           ],
           [
             "3002",
             "Yorker",
             "Hammer Bit",
-            "16 \u00d7 260",
+            "16 × 260",
             "200 Pcs"
           ],
           [
             "3002",
             "Yorker",
             "Hammer Bit",
-            "16 \u00d7 310",
+            "16 × 310",
             "100 Pcs"
           ],
           [
             "3002",
             "Yorker",
             "Hammer Bit",
-            "16 \u00d7 350",
+            "16 × 350",
             "100 Pcs"
           ],
           [
             "3002",
             "Yorker",
             "Hammer Bit",
-            "16 \u00d7 360",
+            "16 × 360",
             "100 Pcs"
           ],
           [
             "3002",
             "Yorker",
             "Hammer Bit",
-            "16 \u00d7 450",
+            "16 × 450",
             "50 Pcs"
           ],
           [
             "3002",
             "Yorker",
             "Hammer Bit",
-            "18 \u00d7 160",
+            "18 × 160",
             "125 Pcs"
           ],
           [
             "3002",
             "Yorker",
             "Hammer Bit",
-            "18 \u00d7 210",
+            "18 × 210",
             "100 Pcs"
           ],
           [
             "3002",
             "Yorker",
             "Hammer Bit",
-            "18 \u00d7 260",
+            "18 × 260",
             "100 Pcs"
           ],
           [
             "3002",
             "Yorker",
             "Hammer Bit",
-            "18 \u00d7 310",
+            "18 × 310",
             "100 Pcs"
           ],
           [
             "3002",
             "Yorker",
             "Hammer Bit",
-            "18 \u00d7 360",
+            "18 × 360",
             "100 Pcs"
           ],
           [
             "3002",
             "Yorker",
             "Hammer Bit",
-            "18 \u00d7 450",
+            "18 × 450",
             "50 Pcs"
           ],
           [
             "3002",
             "Yorker",
             "Hammer Bit",
-            "20 \u00d7 160",
+            "20 × 160",
             "100 Pcs"
           ],
           [
             "3002",
             "Yorker",
             "Hammer Bit",
-            "20 \u00d7 210",
+            "20 × 210",
             "100 Pcs"
           ],
           [
             "3002",
             "Yorker",
             "Hammer Bit",
-            "20 \u00d7 260",
+            "20 × 260",
             "50 Pcs"
           ],
           [
             "3002",
             "Yorker",
             "Hammer Bit",
-            "20 \u00d7 310",
+            "20 × 310",
             "50 Pcs"
           ],
           [
             "3002",
             "Yorker",
             "Hammer Bit",
-            "20 \u00d7 350",
+            "20 × 350",
             "50 Pcs"
           ],
           [
             "3002",
             "Yorker",
             "Hammer Bit",
-            "20 \u00d7 360",
+            "20 × 360",
             "50 Pcs"
           ],
           [
             "3002",
             "Yorker",
             "Hammer Bit",
-            "20 \u00d7 450",
+            "20 × 450",
             "50 Pcs"
           ],
           [
             "3002",
             "Yorker",
             "Hammer Bit",
-            "22 \u00d7 310",
+            "22 × 310",
             "25 Pcs"
           ],
           [
             "3002",
             "Yorker",
             "Hammer Bit",
-            "25 \u00d7 310",
+            "25 × 310",
             "40 Pcs"
           ],
           [
             "3002",
             "Yorker",
             "Hammer Bit",
-            "25 \u00d7 350",
+            "25 × 350",
             "25 Pcs"
           ],
           [
             "3002",
             "Yorker",
             "Hammer Bit",
-            "25 \u00d7 450",
+            "25 × 450",
             "25 Pcs"
           ]
         ]
@@ -3239,7 +3442,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "sds-drill-bits-chisels"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7765,
@@ -3320,7 +3529,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "agriculture-machines"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7764,
@@ -3370,7 +3585,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "agriculture-machines"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7763,
@@ -3427,7 +3648,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "agriculture-machines"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7759,
@@ -3475,7 +3702,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "agriculture-machines"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7758,
@@ -3528,7 +3761,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "agriculture-machines"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7675,
@@ -3584,7 +3823,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7670,
@@ -3668,7 +3913,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7665,
@@ -3741,7 +3992,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7663,
@@ -3787,7 +4044,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7660,
@@ -3831,7 +4094,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7655,
@@ -3910,7 +4179,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7651,
@@ -3938,7 +4213,7 @@
         ],
         "rows": [
           [
-            "9\u201d",
+            "9”",
             "Dual Purpose Gun",
             "40 Pcs",
             "Yorker",
@@ -3968,7 +4243,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7649,
@@ -4015,7 +4296,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7645,
@@ -4092,7 +4379,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7638,
@@ -4122,21 +4415,21 @@
         ],
         "rows": [
           [
-            "10\u201d",
+            "10”",
             "Yorker Eco",
             "CRV",
             "60 Pcs",
             "9334"
           ],
           [
-            "10\u201d",
+            "10”",
             "Yorker Gold",
             "CRV",
             "60 Pcs",
             "9335"
           ],
           [
-            "10\u201d",
+            "10”",
             "Yorker Professional",
             "CRV",
             "60 Pcs",
@@ -4171,7 +4464,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7635,
@@ -4199,7 +4498,7 @@
         ],
         "rows": [
           [
-            "8\u201d",
+            "8”",
             "Multicolor",
             "180 Pcs",
             "Yorker",
@@ -4224,7 +4523,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7632,
@@ -4252,14 +4557,14 @@
         ],
         "rows": [
           [
-            "8\u201d",
+            "8”",
             "Standard",
             "144 Pcs",
             "Yorker",
             "9339"
           ],
           [
-            "8\u201d",
+            "8”",
             "Gold",
             "150 Pcs",
             "Yorker",
@@ -4284,7 +4589,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7631,
@@ -4316,7 +4627,7 @@
             "9303",
             "Hammering Tool",
             "Yorker",
-            "8mm x 8\u201d",
+            "8mm x 8”",
             "Red",
             "120 Pcs."
           ],
@@ -4324,7 +4635,7 @@
             "9303",
             "Hammering Tool",
             "Yorker",
-            "8mm x 10\u201d",
+            "8mm x 10”",
             "Red",
             "120 Pcs."
           ],
@@ -4332,7 +4643,7 @@
             "9303",
             "Hammering Tool",
             "Yorker",
-            "8mm x 12\u201d",
+            "8mm x 12”",
             "Red",
             "120 Pcs."
           ]
@@ -4350,7 +4661,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7626,
@@ -4417,7 +4734,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7623,
@@ -4448,35 +4771,35 @@
             "9308",
             "Pro Yellow Black (2 in 1)",
             "Yorker",
-            "6mm x 4\u201d (2 in 1)",
+            "6mm x 4” (2 in 1)",
             "240 Pcs."
           ],
           [
             "9308",
             "Pro Yellow Black (2 in 1)",
             "Yorker",
-            "6mm x 6\u201d (2 in 1)",
+            "6mm x 6” (2 in 1)",
             "240 Pcs."
           ],
           [
             "9308",
             "Pro Yellow Black (2 in 1)",
             "Yorker",
-            "6mm x 8\u201d (2 in 1)",
+            "6mm x 8” (2 in 1)",
             "120 Pcs."
           ],
           [
             "9308",
             "Pro Yellow Black (2 in 1)",
             "Yorker",
-            "6mm x 10\u201d (2 in 1)",
+            "6mm x 10” (2 in 1)",
             "120 Pcs."
           ],
           [
             "9308",
             "Pro Yellow Black (2 in 1)",
             "Yorker",
-            "6mm x 12\u201d (2 in 1)",
+            "6mm x 12” (2 in 1)",
             "120 Pcs."
           ]
         ]
@@ -4493,7 +4816,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7619,
@@ -4524,7 +4853,7 @@
             "9305",
             "Screwdriver",
             "Yorker",
-            "75mm, 3\u201d (2 in 1)",
+            "75mm, 3” (2 in 1)",
             "240 Pcs."
           ]
         ]
@@ -4546,7 +4875,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7616,
@@ -4577,14 +4912,14 @@
             "9304",
             "T-Type Tool",
             "Yorker",
-            "4\u201d (T-Type)",
+            "4” (T-Type)",
             "120 Pcs."
           ],
           [
             "9304",
             "T-Type Tool",
             "Yorker",
-            "6\u201d (T-Type)",
+            "6” (T-Type)",
             "120 Pcs."
           ]
         ]
@@ -4606,7 +4941,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7614,
@@ -4637,28 +4978,28 @@
             "9307",
             "2 in 1 Tool",
             "Yorker",
-            "6mm x 4\u201d (2 in 1)",
+            "6mm x 4” (2 in 1)",
             "240 Pcs."
           ],
           [
             "9307",
             "2 in 1 Tool",
             "Yorker",
-            "6mm x 6\u201d (2 in 1)",
+            "6mm x 6” (2 in 1)",
             "240 Pcs."
           ],
           [
             "9307",
             "2 in 1 Tool",
             "Yorker",
-            "6mm x 8\u201d (2 in 1)",
+            "6mm x 8” (2 in 1)",
             "120 Pcs."
           ],
           [
             "9307",
             "2 in 1 Tool",
             "Yorker",
-            "8mm x 10\u201d (2 in 1)",
+            "8mm x 10” (2 in 1)",
             "120 Pcs."
           ]
         ]
@@ -4675,7 +5016,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7611,
@@ -4706,7 +5053,7 @@
             "9306",
             "2 in 1 Tool",
             "Yorker",
-            "6\u201d (2\u00d71) ADJ (886 Series)",
+            "6” (2×1) ADJ (886 Series)",
             "120 Pcs."
           ]
         ]
@@ -4728,7 +5075,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7609,
@@ -4759,28 +5112,28 @@
             "9302",
             "2 in 1 Tool",
             "Yorker",
-            "6mm x 4\u201d",
+            "6mm x 4”",
             "240 Pcs."
           ],
           [
             "9302",
             "2 in 1 Tool",
             "Yorker",
-            "6mm x 6\u201d",
+            "6mm x 6”",
             "240 Pcs."
           ],
           [
             "9302",
             "2 in 1 Tool",
             "Yorker",
-            "6mm x 8\u201d",
+            "6mm x 8”",
             "120 Pcs."
           ],
           [
             "9302",
             "2 in 1 Tool",
             "Yorker",
-            "6mm x 10\u201d",
+            "6mm x 10”",
             "120 Pcs."
           ]
         ]
@@ -4797,7 +5150,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7606,
@@ -4828,28 +5187,28 @@
             "9302",
             "2 in 1 Tool",
             "Yorker",
-            "6mm x 4\u201d",
+            "6mm x 4”",
             "240 Pcs."
           ],
           [
             "9302",
             "2 in 1 Tool",
             "Yorker",
-            "6mm x 6\u201d",
+            "6mm x 6”",
             "240 Pcs."
           ],
           [
             "9302",
             "2 in 1 Tool",
             "Yorker",
-            "6mm x 8\u201d",
+            "6mm x 8”",
             "120 Pcs."
           ],
           [
             "9302",
             "2 in 1 Tool",
             "Yorker",
-            "6mm x 10\u201d",
+            "6mm x 10”",
             "120 Pcs."
           ]
         ]
@@ -4866,7 +5225,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7603,
@@ -4947,7 +5312,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7599,
@@ -4977,7 +5348,7 @@
             "9313",
             "SL Carborandum",
             "Yorker",
-            "6\u201d, Shaping Stone"
+            "6”, Shaping Stone"
           ]
         ]
       }
@@ -5003,7 +5374,14 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "abrasives",
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7597,
@@ -5051,7 +5429,14 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools",
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7592,
@@ -5128,7 +5513,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7588,
@@ -5186,7 +5577,14 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools",
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7584,
@@ -5260,7 +5658,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7580,
@@ -5291,7 +5695,7 @@
             "9315",
             "Diamond Polish Stone",
             "Yorker",
-            "6\u201d",
+            "6”",
             "Silver / Yellow"
           ]
         ]
@@ -5318,7 +5722,14 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "abrasives",
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7576,
@@ -5344,7 +5755,7 @@
         "rows": [
           [
             "Yorker",
-            "6\u201d",
+            "6”",
             "Black",
             "60 pcs"
           ]
@@ -5372,7 +5783,14 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "abrasives",
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7570,
@@ -5398,13 +5816,13 @@
         "rows": [
           [
             "Yorker",
-            "1\u201d Double",
+            "1” Double",
             "Multiple",
             "Available"
           ],
           [
             "Yorker",
-            "1/2\u201d Single",
+            "1/2” Single",
             "Multiple",
             "Available"
           ]
@@ -5432,7 +5850,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7566,
@@ -5461,13 +5885,13 @@
           [
             "9311",
             "Yorker",
-            "1/2\u201d Single",
+            "1/2” Single",
             "Not In Stock"
           ],
           [
             "9311",
             "Yorker",
-            "1\u201d Double",
+            "1” Double",
             "Available"
           ],
           [
@@ -5500,7 +5924,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "hand-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7372,
@@ -5584,7 +6014,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "abrasives"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7369,
@@ -5645,7 +6081,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "abrasives"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7367,
@@ -5670,7 +6112,7 @@
         ],
         "rows": [
           [
-            "4 \u00d7 9 P",
+            "4 × 9 P",
             "Non Woven Wheel",
             "400 Pcs.",
             "Yoker"
@@ -5689,7 +6131,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "abrasives"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7363,
@@ -5714,43 +6162,43 @@
         ],
         "rows": [
           [
-            "4\u201d",
+            "4”",
             "Grit 0",
             "200 Pcs.",
             "Yoker"
           ],
           [
-            "4\u201d",
+            "4”",
             "Grit 1",
             "200 Pcs.",
             "Yoker"
           ],
           [
-            "4\u201d",
+            "4”",
             "Grit 2",
             "200 Pcs.",
             "Yoker"
           ],
           [
-            "4\u201d",
+            "4”",
             "Grit 3",
             "200 Pcs.",
             "Yoker"
           ],
           [
-            "4\u201d",
+            "4”",
             "Grit 4",
             "200 Pcs.",
             "Yoker"
           ],
           [
-            "4\u201d",
+            "4”",
             "Grit 5",
             "200 Pcs.",
             "Yoker"
           ],
           [
-            "4\u201d",
+            "4”",
             "Grit 6",
             "200 Pcs.",
             "Yoker"
@@ -5779,7 +6227,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "abrasives"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7153,
@@ -5846,7 +6300,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7151,
@@ -5901,7 +6361,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7152,
@@ -6040,7 +6506,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7150,
@@ -6215,7 +6687,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7144,
@@ -6243,43 +6721,43 @@
           [
             "8042",
             "Four Slot Auger Bit",
-            "12 \u00d7 165mm",
+            "12 × 165mm",
             "300 Pcs"
           ],
           [
             "8042",
             "Four Slot Auger Bit",
-            "16 \u00d7 165mm",
+            "16 × 165mm",
             "300 Pcs"
           ],
           [
             "8042",
             "Four Slot Auger Bit",
-            "18 \u00d7 165mm",
+            "18 × 165mm",
             "300 Pcs"
           ],
           [
             "8042",
             "Four Slot Auger Bit",
-            "20 \u00d7 165mm",
+            "20 × 165mm",
             "300 Pcs"
           ],
           [
             "8042",
             "Four Slot Auger Bit",
-            "25 \u00d7 165mm",
+            "25 × 165mm",
             "300 Pcs"
           ],
           [
             "8042",
             "Four Slot Auger Bit",
-            "32 \u00d7 165mm",
+            "32 × 165mm",
             "200 Pcs"
           ],
           [
             "8042",
             "Four Slot Auger Bit",
-            "38 \u00d7 165mm",
+            "38 × 165mm",
             "300 Pcs"
           ]
         ]
@@ -6301,7 +6779,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7149,
@@ -6330,42 +6814,42 @@
           [
             "8028",
             "Pointed Chisel Yorker",
-            "14\u00d7250 Point",
+            "14×250 Point",
             "Silver",
             "100 Pcs."
           ],
           [
             "8028",
             "Pointed Chisel Yorker",
-            "14\u00d7250 Flat",
+            "14×250 Flat",
             "Silver",
             "100 Pcs."
           ],
           [
             "8028",
             "Pointed Chisel Yorker",
-            "17\u00d7280 Flat",
+            "17×280 Flat",
             "Silver",
             "50 Pcs."
           ],
           [
             "8028",
             "Pointed Chisel Yorker",
-            "17\u00d7280 Point",
+            "17×280 Point",
             "Silver",
             "50 Pcs."
           ],
           [
             "8028",
             "Pointed Chisel Yorker",
-            "18\u00d7450 Point",
+            "18×450 Point",
             "Silver",
             "25 Pcs."
           ],
           [
             "8028",
             "Pointed Chisel Yorker",
-            "18\u00d7450 Flat",
+            "18×450 Flat",
             "Silver",
             "25 Pcs."
           ],
@@ -6386,28 +6870,28 @@
           [
             "8028",
             "Pointed Chisel Yorker",
-            "18\u00d7400 Point",
+            "18×400 Point",
             "Silver",
             "50 Pcs."
           ],
           [
             "8028",
             "Pointed Chisel Yorker",
-            "18\u00d7600 Point",
+            "18×600 Point",
             "Silver",
             "50 Pcs."
           ],
           [
             "8028",
             "Pointed Chisel Yorker",
-            "30\u00d7400 Point (Actual Size 30\u00d7360)",
+            "30×400 Point (Actual Size 30×360)",
             "Silver",
             "50 Pcs."
           ],
           [
             "8028",
             "Pointed Chisel Yorker",
-            "30\u00d7400 Point (Full Size)",
+            "30×400 Point (Full Size)",
             "Silver",
             "25 Pcs."
           ]
@@ -6425,7 +6909,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7148,
@@ -6490,7 +6980,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7147,
@@ -6547,7 +7043,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7146,
@@ -6577,14 +7079,14 @@
             "8025",
             "Yorker Pro Saw Chain",
             "Yorker Pro",
-            "18\u2033",
+            "18″",
             "50 Pcs."
           ],
           [
             "8025",
             "Yorker Pro Saw Chain",
             "Yorker Pro",
-            "22\u2033",
+            "22″",
             "50 Pcs."
           ]
         ]
@@ -6606,7 +7108,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7145,
@@ -6636,14 +7144,14 @@
             "8024",
             "Yorker Saw Chain",
             "Yorker",
-            "18\u2033",
+            "18″",
             "50 Pcs."
           ],
           [
             "8024",
             "Yorker Saw Chain",
             "Yorker",
-            "22\u2033",
+            "22″",
             "50 Pcs."
           ]
         ]
@@ -6665,7 +7173,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7143,
@@ -6738,7 +7252,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7142,
@@ -6800,7 +7320,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7141,
@@ -6873,7 +7399,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7140,
@@ -6934,7 +7466,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7139,
@@ -6988,7 +7526,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7137,
@@ -7052,7 +7596,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7136,
@@ -7082,14 +7632,14 @@
             "8017",
             "PH2 Bit Pro (Power Bits)",
             "Yorker Pro",
-            "100mm (4\u2033)",
+            "100mm (4″)",
             "1000 Pcs."
           ],
           [
             "8017",
             "PH2 Bit Pro (Power Bits)",
             "Yorker Pro",
-            "150mm (6\u2033)",
+            "150mm (6″)",
             "800 Pcs."
           ]
         ]
@@ -7106,7 +7656,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7135,
@@ -7157,14 +7713,14 @@
             "8016",
             "PH2 Bit (Power Bits) China 52 Material",
             "Yorker",
-            "100mm (4\u2033)",
+            "100mm (4″)",
             "1000 Pcs."
           ],
           [
             "8016",
             "PH2 Bit (Power Bits) China 52 Material",
             "Yorker",
-            "150mm (6\u2033)",
+            "150mm (6″)",
             "500 Pcs."
           ]
         ]
@@ -7181,7 +7737,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7132,
@@ -7232,7 +7794,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7131,
@@ -7290,7 +7858,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7130,
@@ -7320,14 +7894,14 @@
             "8039",
             "Yorker",
             "Googly Eco Cup Brush",
-            "3\u2033",
+            "3″",
             "100 Pcs."
           ],
           [
             "8039",
             "Yorker",
             "Googly Eco Cup Brush",
-            "4\u2033",
+            "4″",
             "60 Pcs."
           ]
         ]
@@ -7349,7 +7923,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7129,
@@ -7382,7 +7962,7 @@
           ],
           [
             "Specification",
-            "3\u2033 Crimped"
+            "3″ Crimped"
           ],
           [
             "Packing",
@@ -7407,7 +7987,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7128,
@@ -7438,7 +8024,7 @@
             "8037",
             "Yorker",
             "Cup Brush Professional",
-            "3\u2033 Heavy",
+            "3″ Heavy",
             "110.00/-",
             "100 Pcs."
           ],
@@ -7446,7 +8032,7 @@
             "8037",
             "Yorker",
             "Cup Brush Professional",
-            "4\u2033 Heavy",
+            "4″ Heavy",
             "196.00/-",
             "60 Pcs."
           ]
@@ -7464,7 +8050,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7126,
@@ -7526,7 +8118,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7125,
@@ -7583,7 +8181,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "spare-parts"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7124,
@@ -7641,7 +8245,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7123,
@@ -7703,7 +8313,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "spare-parts"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7120,
@@ -7757,7 +8373,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7122,
@@ -7880,7 +8502,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "spare-parts"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7116,
@@ -7934,7 +8562,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7119,
@@ -7963,14 +8597,14 @@
           [
             "Yoker",
             "8036",
-            "3\u2033 Crimped",
+            "3″ Crimped",
             "Blue",
             "100 Pcs"
           ],
           [
             "Yoker",
             "8036",
-            "4\u2033 Crimped",
+            "4″ Crimped",
             "Blue",
             "60 Pcs"
           ]
@@ -7988,7 +8622,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7118,
@@ -8016,19 +8656,19 @@
           [
             "Yoker",
             "8035",
-            "3\u2033 M-10",
+            "3″ M-10",
             "100 Pcs"
           ],
           [
             "Yoker",
             "8035",
-            "3\u2033 Medium (M14)",
+            "3″ Medium (M14)",
             "100 Pcs"
           ],
           [
             "Yoker",
             "8035",
-            "4\u2033 Medium",
+            "4″ Medium",
             "60 Pcs"
           ]
         ]
@@ -8045,7 +8685,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7117,
@@ -8103,7 +8749,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "spare-parts"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7115,
@@ -8156,7 +8808,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7114,
@@ -8211,7 +8869,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7112,
@@ -8243,7 +8907,7 @@
           [
             "Yoker",
             "L Bolt",
-            "\u2014",
+            "—",
             "5000 Pcs"
           ]
         ]
@@ -8260,7 +8924,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "spare-parts"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7113,
@@ -8309,7 +8979,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7111,
@@ -8426,7 +9102,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7107,
@@ -8499,7 +9181,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7109,
@@ -8567,7 +9255,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "spare-parts"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7108,
@@ -8621,7 +9315,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "spare-parts"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7103,
@@ -8744,7 +9444,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7106,
@@ -8798,7 +9504,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "spare-parts"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7102,
@@ -8890,7 +9602,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "accessories"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7098,
@@ -8943,7 +9661,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "agriculture-machines"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7097,
@@ -9005,11 +9729,17 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "agriculture-machines"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7096,
-    "name": "YORKER PRUNING SAW 12\u2033 (300mm)",
+    "name": "YORKER PRUNING SAW 12″ (300mm)",
     "slug": "yorker-pruning-saw-12-300mm",
     "url": "https://yorkertoolscentre.com/product/yorker-pruning-saw-12-300mm/",
     "categories": [
@@ -9034,7 +9764,7 @@
           ],
           [
             "Product Description",
-            "YORKER PRUNING SAW 12\u2033 (300mm)"
+            "YORKER PRUNING SAW 12″ (300mm)"
           ],
           [
             "Packing",
@@ -9046,7 +9776,7 @@
           ],
           [
             "Size",
-            "12\u2033 / 300mm"
+            "12″ / 300mm"
           ]
         ]
       }
@@ -9062,7 +9792,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "agriculture-machines"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7095,
@@ -9121,7 +9857,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "agriculture-machines"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7094,
@@ -9170,7 +9912,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "agriculture-machines"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7093,
@@ -9229,7 +9977,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "agriculture-machines"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7092,
@@ -9270,7 +10024,7 @@
           ],
           [
             "Size",
-            "\u2014"
+            "—"
           ]
         ]
       }
@@ -9291,7 +10045,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "agriculture-machines"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7091,
@@ -9345,7 +10105,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "agriculture-machines"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7090,
@@ -9399,7 +10165,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "agriculture-machines"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7088,
@@ -9440,7 +10212,7 @@
           ],
           [
             "Size",
-            "\u2014"
+            "—"
           ]
         ]
       }
@@ -9461,7 +10233,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "agriculture-machines"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7087,
@@ -9476,7 +10254,7 @@
     "models": [
       "7006"
     ],
-    "intro": "Moulding Wheel Manufacturer in Delhi \u2013 Yorker Tools Centre Yorker Tools Centre is a trusted Moulding Wheel Manufacturer in Delhi, delivering precision-engineered moulding wheels designed for professional stone, marble, and granite edge profiling. With years of manufacturing expertise and a commitment to consistent quality, we supply moulding wheels that meet the demands of fabricators, contractors, and stone processing units across the country. What is a Moulding Wheel? A moulding wheel is a diamond-tipped or abrasive profiling tool used to shape, bevel, and finish the edges of marble, granite",
+    "intro": "Moulding Wheel Manufacturer in Delhi – Yorker Tools Centre Yorker Tools Centre is a trusted Moulding Wheel Manufacturer in Delhi, delivering precision-engineered moulding wheels designed for professional stone, marble, and granite edge profiling. With years of manufacturing expertise and a commitment to consistent quality, we supply moulding wheels that meet the demands of fabricators, contractors, and stone processing units across the country. What is a Moulding Wheel? A moulding wheel is a diamond-tipped or abrasive profiling tool used to shape, bevel, and finish the edges of marble, granite",
     "specs": [
       {
         "kind": "table",
@@ -9535,7 +10313,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "diamond-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7086,
@@ -9559,12 +10343,12 @@
         ],
         "rows": [
           [
-            "5\u2033",
+            "5″",
             "Cut",
             "50 Pcs."
           ],
           [
-            "7\u2033",
+            "7″",
             "Cut",
             "20 Pcs."
           ]
@@ -9587,7 +10371,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "diamond-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7085,
@@ -9611,12 +10401,12 @@
         ],
         "rows": [
           [
-            "3\u2033",
+            "3″",
             "Cut / Rim",
             "100 Pcs"
           ],
           [
-            "4\u2033",
+            "4″",
             "Cut / Rim",
             "100 Pcs"
           ]
@@ -9628,7 +10418,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "diamond-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7084,
@@ -9653,14 +10449,14 @@
         ],
         "rows": [
           [
-            "3\u2033 Cut / Rim",
-            "3\u2033",
+            "3″ Cut / Rim",
+            "3″",
             "CUT / RIM",
             "100 Pcs."
           ],
           [
-            "4\u2033 Cut / Rim",
-            "4\u2033",
+            "4″ Cut / Rim",
+            "4″",
             "CUT / RIM",
             "100 Pcs."
           ]
@@ -9688,7 +10484,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "diamond-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7083,
@@ -9715,13 +10517,13 @@
         "rows": [
           [
             "ST Cut / Rim",
-            "3\u2033",
+            "3″",
             "CUT / RIM",
             "100 Pcs."
           ],
           [
             "12T Cut",
-            "4\u2033",
+            "4″",
             "12T CUT",
             "100 Pcs."
           ]
@@ -9749,7 +10551,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "diamond-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7082,
@@ -9772,7 +10580,7 @@
             "Quantity"
           ],
           [
-            "4\u2033 Dual Cup Wheel 2in1",
+            "4″ Dual Cup Wheel 2in1",
             "100 Pcs"
           ]
         ]
@@ -9804,7 +10612,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "diamond-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7081,
@@ -9827,7 +10641,7 @@
             "Quantity"
           ],
           [
-            "4\u2033",
+            "4″",
             "200 Pcs"
           ]
         ]
@@ -9849,7 +10663,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "diamond-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7080,
@@ -9872,7 +10692,7 @@
             "Quantity"
           ],
           [
-            "4\u2033",
+            "4″",
             "100 Pcs"
           ]
         ]
@@ -9894,7 +10714,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "diamond-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7078,
@@ -9943,7 +10769,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "diamond-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7077,
@@ -9992,7 +10824,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "diamond-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7076,
@@ -10053,7 +10891,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "diamond-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7075,
@@ -10066,8 +10910,8 @@
     ],
     "brand": "",
     "models": [
-      "4\u00d79",
-      "5\u00d79"
+      "4×9",
+      "5×9"
     ],
     "intro": "If you",
     "specs": [
@@ -10082,14 +10926,14 @@
         ],
         "rows": [
           [
-            "4\u00d79",
+            "4×9",
             "110 MM",
             "20 MM",
             "9 SEG",
             "200 Pcs"
           ],
           [
-            "5\u00d79",
+            "5×9",
             "125 MM",
             "20 MM",
             "9 SEG",
@@ -10114,7 +10958,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "diamond-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7074,
@@ -10127,13 +10977,13 @@
     ],
     "brand": "",
     "models": [
-      "4\u00d79T",
-      "4\u00d7RIM",
-      "4\u00d7TURBO",
-      "5\u00d79T",
-      "5\u00d7RIM",
-      "5\u00d7TURBO",
-      "6\u00d712T"
+      "4×9T",
+      "4×RIM",
+      "4×TURBO",
+      "5×9T",
+      "5×RIM",
+      "5×TURBO",
+      "6×12T"
     ],
     "intro": "I",
     "specs": [
@@ -10148,49 +10998,49 @@
         ],
         "rows": [
           [
-            "4\u00d79T",
+            "4×9T",
             "110 MM",
             "20 MM",
             "SEG",
             "200 Pcs."
           ],
           [
-            "4\u00d7RIM",
+            "4×RIM",
             "110 MM",
             "20 MM",
             "RIM",
             "200 Pcs."
           ],
           [
-            "4\u00d7TURBO",
+            "4×TURBO",
             "110 MM",
             "20 MM",
             "TURBO",
             "200 Pcs."
           ],
           [
-            "5\u00d79T",
+            "5×9T",
             "125 MM",
             "20 MM",
             "SEG",
             "200 Pcs."
           ],
           [
-            "5\u00d7RIM",
+            "5×RIM",
             "125 MM",
             "20 MM",
             "RIM",
             "200 Pcs."
           ],
           [
-            "5\u00d7TURBO",
+            "5×TURBO",
             "125 MM",
             "20 MM",
             "TURBO",
             "200 Pcs."
           ],
           [
-            "6\u00d712T",
+            "6×12T",
             "150 MM",
             "20 MM",
             "SEG",
@@ -10220,7 +11070,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "diamond-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7073,
@@ -10246,14 +11102,14 @@
         ],
         "rows": [
           [
-            "5\u00d79T",
+            "5×9T",
             "110 mm",
             "20 mm",
             "RIM / TURBO",
             "200 Pcs"
           ],
           [
-            "4\u00d78T",
+            "4×8T",
             "110 mm",
             "20 mm",
             "TURBO",
@@ -10283,7 +11139,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "diamond-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7072,
@@ -10296,9 +11158,9 @@
     ],
     "brand": "",
     "models": [
-      "4\u00d710T",
-      "5\u00d710T",
-      "6\u00d710T"
+      "4×10T",
+      "5×10T",
+      "6×10T"
     ],
     "intro": "",
     "specs": [
@@ -10314,24 +11176,24 @@
         ],
         "rows": [
           [
-            "4\u2033",
-            "4\u00d710T",
+            "4″",
+            "4×10T",
             "110 mm",
             "20 mm",
             "RIM / TURBO",
             "200 pcs"
           ],
           [
-            "5\u2033",
-            "5\u00d710T",
+            "5″",
+            "5×10T",
             "125 mm",
             "22.23 mm",
             "RIM / TURBO",
             "200 pcs"
           ],
           [
-            "6\u2033",
-            "6\u00d710T",
+            "6″",
+            "6×10T",
             "150 mm",
             "22.23 mm",
             "RIM / TURBO",
@@ -10371,7 +11233,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "diamond-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7071,
@@ -10384,12 +11252,12 @@
     ],
     "brand": "",
     "models": [
-      "4\u00d79T",
-      "4\u00d7RIM",
-      "4\u2033 Turbo",
-      "5\u00d79T",
-      "5\u00d7RIM",
-      "5\u00d7Turbo"
+      "4×9T",
+      "4×RIM",
+      "4″ Turbo",
+      "5×9T",
+      "5×RIM",
+      "5×Turbo"
     ],
     "intro": "",
     "specs": [
@@ -10404,42 +11272,42 @@
         ],
         "rows": [
           [
-            "4\u00d79T",
+            "4×9T",
             "110MM",
             "20MM",
             "SEG",
             "200 Pcs"
           ],
           [
-            "4\u00d7RIM",
+            "4×RIM",
             "110MM",
             "20MM",
             "RIM",
             "200 Pcs"
           ],
           [
-            "4\u2033 Turbo",
+            "4″ Turbo",
             "110MM",
             "20MM",
             "TURBO",
             "200 Pcs"
           ],
           [
-            "5\u00d79T",
+            "5×9T",
             "110MM",
             "20MM",
             "SEG",
             "200 Pcs"
           ],
           [
-            "5\u00d7RIM",
+            "5×RIM",
             "110MM",
             "20MM",
             "RIM",
             "200 Pcs"
           ],
           [
-            "5\u00d7Turbo",
+            "5×Turbo",
             "110MM",
             "20MM",
             "TURBO",
@@ -10474,7 +11342,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "diamond-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7070,
@@ -10487,10 +11361,10 @@
     ],
     "brand": "",
     "models": [
-      "4\u00d79T",
-      "4\u2033 Turbo",
-      "4\u2033 Rim",
-      "5\u00d79T"
+      "4×9T",
+      "4″ Turbo",
+      "4″ Rim",
+      "5×9T"
     ],
     "intro": "",
     "specs": [
@@ -10505,28 +11379,28 @@
         ],
         "rows": [
           [
-            "4\u00d79T",
+            "4×9T",
             "110 MM",
             "20 MM",
             "SEG",
             "200 Pcs"
           ],
           [
-            "4\u2033 Turbo",
+            "4″ Turbo",
             "110 MM",
             "20 MM",
             "TURBO",
             "200 Pcs"
           ],
           [
-            "4\u2033 Rim",
+            "4″ Rim",
             "110 MM",
             "20 MM",
             "RIM",
             "200 Pcs"
           ],
           [
-            "5\u00d79T",
+            "5×9T",
             "110 MM",
             "20 MM",
             "SEG",
@@ -10556,7 +11430,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "diamond-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7068,
@@ -10582,21 +11462,21 @@
         ],
         "rows": [
           [
-            "4\u00d79T",
+            "4×9T",
             "110 MM",
             "20 MM",
             "8 SEG",
             "200 Pcs."
           ],
           [
-            "4\u2033 Turbo",
+            "4″ Turbo",
             "110 MM",
             "20 MM",
             "9 SEG",
             "200 Pcs."
           ],
           [
-            "4\u00d7RIM",
+            "4×RIM",
             "110 MM",
             "20 MM",
             "RIM",
@@ -10626,7 +11506,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "diamond-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7066,
@@ -10659,7 +11545,7 @@
             "Turbo"
           ],
           [
-            "4\u2033 Turbo",
+            "4″ Turbo",
             "200 pcs",
             "110MM",
             "20MM",
@@ -10686,7 +11572,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "diamond-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7061,
@@ -10709,7 +11601,7 @@
             "Packing"
           ],
           [
-            "#4\u201d(110mm) Turbo",
+            "#4”(110mm) Turbo",
             "200 Pcs"
           ]
         ]
@@ -10720,7 +11612,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "diamond-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7060,
@@ -10733,7 +11631,7 @@
     ],
     "brand": "",
     "models": [],
-    "intro": "Super Thin Turbo Blade Online \u2013 Yorker Tools Centre Yorker Tools Centre is India\u2019s trusted source to buy Super Thin Turbo Blade Online, offering a premium range of diamond turbo blades engineered for fast, clean, and chip-free cutting of marble, granite, ceramic tiles, porcelain, and stone surfaces. Designed for professionals who demand both speed and precision, our super thin turbo blades combine advanced diamond technology with a high-tensile steel core to deliver outstanding cutting performance on every job. Whether you are a tile installer, stone fabricator, or construction contractor, buy",
+    "intro": "Super Thin Turbo Blade Online – Yorker Tools Centre Yorker Tools Centre is India’s trusted source to buy Super Thin Turbo Blade Online, offering a premium range of diamond turbo blades engineered for fast, clean, and chip-free cutting of marble, granite, ceramic tiles, porcelain, and stone surfaces. Designed for professionals who demand both speed and precision, our super thin turbo blades combine advanced diamond technology with a high-tensile steel core to deliver outstanding cutting performance on every job. Whether you are a tile installer, stone fabricator, or construction contractor, buy",
     "specs": [
       {
         "kind": "kv",
@@ -10743,7 +11641,7 @@
             "Packing"
           ],
           [
-            "#4\u201d(110mm) Turbo",
+            "#4”(110mm) Turbo",
             "200 Pcs"
           ]
         ]
@@ -10765,7 +11663,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "diamond-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7059,
@@ -10788,7 +11692,7 @@
             "Packing"
           ],
           [
-            "#4\u201d(110mm) Turbo",
+            "#4”(110mm) Turbo",
             "200 Pcs"
           ]
         ]
@@ -10799,7 +11703,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "diamond-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7058,
@@ -10822,7 +11732,7 @@
             "Packing"
           ],
           [
-            "#4\u201d(105mm) Turbo",
+            "#4”(105mm) Turbo",
             "200 Pcs"
           ]
         ]
@@ -10833,7 +11743,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "diamond-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7057,
@@ -10856,7 +11772,7 @@
             "Packing"
           ],
           [
-            "#4\u201d(110mm) Turbo",
+            "#4”(110mm) Turbo",
             "200 Pcs"
           ]
         ]
@@ -10867,7 +11783,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "diamond-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7056,
@@ -10890,7 +11812,7 @@
             "Packing"
           ],
           [
-            "#4\u201dMesh Turbo",
+            "#4”Mesh Turbo",
             "200 Pcs"
           ]
         ]
@@ -10912,7 +11834,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "diamond-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7055,
@@ -10935,11 +11863,11 @@
             "Packing"
           ],
           [
-            "#4\u201dTurbo 8mm",
+            "#4”Turbo 8mm",
             "200 Pcs"
           ],
           [
-            "#4\u201dTurbo 10mm",
+            "#4”Turbo 10mm",
             "200 Pcs"
           ]
         ]
@@ -10961,7 +11889,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "diamond-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7054,
@@ -11006,7 +11940,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "diamond-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7053,
@@ -11051,7 +11991,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "diamond-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7052,
@@ -11096,7 +12042,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "diamond-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7051,
@@ -11163,7 +12115,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "tct-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7049,
@@ -11314,7 +12272,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "tct-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7047,
@@ -11377,7 +12341,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "diamond-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7048,
@@ -11445,7 +12415,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "tct-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7046,
@@ -11500,7 +12476,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "tct-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7044,
@@ -11555,7 +12537,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "tct-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7043,
@@ -11567,18 +12555,18 @@
     ],
     "brand": "",
     "models": [
-      "4\u00d79T",
-      "4\u00d716T",
-      "4\u00d7RIM",
-      "4\u00d7Turbo",
-      "5\u00d79T",
-      "5\u00d7RIM",
-      "5\u00d7Turbo",
-      "6\u00d712T",
-      "6\u00d7RIM",
-      "7\u00d714T",
-      "8\u00d714T",
-      "14\u00d724T"
+      "4×9T",
+      "4×16T",
+      "4×RIM",
+      "4×Turbo",
+      "5×9T",
+      "5×RIM",
+      "5×Turbo",
+      "6×12T",
+      "6×RIM",
+      "7×14T",
+      "8×14T",
+      "14×24T"
     ],
     "intro": "",
     "specs": [
@@ -11593,84 +12581,84 @@
         ],
         "rows": [
           [
-            "4\u00d79T",
+            "4×9T",
             "110 MM",
             "20 MM",
             "10 SEG",
             "200 Pcs"
           ],
           [
-            "4\u00d716T",
+            "4×16T",
             "110 MM",
             "20 MM",
             "10 SEG",
             "200 Pcs"
           ],
           [
-            "4\u00d7RIM",
+            "4×RIM",
             "110 MM",
             "20 MM",
             "RIM",
             "200 Pcs"
           ],
           [
-            "4\u00d7Turbo",
+            "4×Turbo",
             "110 MM",
             "20 MM",
             "TURBO",
             "200 Pcs"
           ],
           [
-            "5\u00d79T",
+            "5×9T",
             "110 MM",
             "20 MM",
             "10 SEG",
             "200 Pcs"
           ],
           [
-            "5\u00d7RIM",
+            "5×RIM",
             "110 MM",
             "20 MM",
             "RIM",
             "200 Pcs"
           ],
           [
-            "5\u00d7Turbo",
+            "5×Turbo",
             "110 MM",
             "20 MM",
             "TURBO",
             "200 Pcs"
           ],
           [
-            "6\u00d712T",
+            "6×12T",
             "110 MM",
             "20 MM",
             "10 SEG",
             "100 Pcs"
           ],
           [
-            "6\u00d7RIM",
+            "6×RIM",
             "110 MM",
             "20 MM",
             "RIM",
             "100 Pcs"
           ],
           [
-            "7\u00d714T",
+            "7×14T",
             "110 MM",
             "20 MM",
             "10 SEG",
             "100 Pcs"
           ],
           [
-            "8\u00d714T",
+            "8×14T",
             "110 MM",
             "20 MM",
             "10 SEG",
             "50 Pcs"
           ],
           [
-            "14\u00d724T",
+            "14×24T",
             "110 MM",
             "20 MM",
             "10 SEG",
@@ -11700,7 +12688,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "diamond-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7042,
@@ -11755,7 +12749,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "tct-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7040,
@@ -11822,7 +12822,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "tct-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7039,
@@ -11895,7 +12901,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "tct-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7037,
@@ -11967,7 +12979,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "tct-saw-blades"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7036,
@@ -12033,7 +13051,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "abrasives"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 7009,
@@ -12089,7 +13113,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "abrasives"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6999,
@@ -12179,7 +13209,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "abrasives"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6998,
@@ -12241,7 +13277,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "abrasives"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6997,
@@ -12303,7 +13345,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "abrasives"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6995,
@@ -12365,7 +13413,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "abrasives"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6992,
@@ -12432,7 +13486,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "abrasives"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6990,
@@ -12506,7 +13566,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "abrasives"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6989,
@@ -12591,7 +13657,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "abrasives"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6988,
@@ -12658,7 +13730,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "abrasives"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6987,
@@ -12709,7 +13787,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "abrasives"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6984,
@@ -12735,35 +13819,35 @@
         ],
         "rows": [
           [
-            "4\u201dx6mm Black",
+            "4”x6mm Black",
             "107MM",
             "1.2MM",
             "16MM",
             "200 Pcs"
           ],
           [
-            "4\u201dx6mm Green",
+            "4”x6mm Green",
             "107MM",
             "1.2MM",
             "16MM",
             "200 Pcs"
           ],
           [
-            "4\u201dx6mm Brown",
+            "4”x6mm Brown",
             "107MM",
             "1.2MM",
             "16MM",
             "200 Pcs"
           ],
           [
-            "5\u201dx6mm Black",
+            "5”x6mm Black",
             "125MM",
             "1.5MM",
             "22.2MM",
             "100 Pcs"
           ],
           [
-            "7\u201dx6mm Black",
+            "7”x6mm Black",
             "180MM",
             "1.8MM",
             "22.2MM",
@@ -12793,7 +13877,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "abrasives"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6983,
@@ -12819,7 +13909,7 @@
         ],
         "rows": [
           [
-            "4\u2033x6mm Green",
+            "4″x6mm Green",
             "107MM",
             "1.2MM",
             "16MM",
@@ -12844,7 +13934,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "abrasives"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6982,
@@ -12857,7 +13953,7 @@
     ],
     "brand": "",
     "models": [],
-    "intro": "4\u2033 Double Net (Green)107MM1.2MM16MM4\u2033 Double Net (Red)107MM1.2MM16MM",
+    "intro": "4″ Double Net (Green)107MM1.2MM16MM4″ Double Net (Red)107MM1.2MM16MM",
     "specs": [
       {
         "kind": "table",
@@ -12870,42 +13966,42 @@
         ],
         "rows": [
           [
-            "4\u2033 Single Net (Green)",
+            "4″ Single Net (Green)",
             "107MM",
             "1.2MM",
             "16MM",
             "800 Pcs"
           ],
           [
-            "4\u2033 Double Net (Green)",
+            "4″ Double Net (Green)",
             "107MM",
             "1.2MM",
             "16MM",
             "800 Pcs"
           ],
           [
-            "4\u2033 Double Net (Red)",
+            "4″ Double Net (Red)",
             "107MM",
             "1.2MM",
             "16MM",
             "800 Pcs"
           ],
           [
-            "4\u2033 Double Net (Black)",
+            "4″ Double Net (Black)",
             "107MM",
             "1.2MM",
             "16MM",
             "800 Pcs"
           ],
           [
-            "5\u2033 Double Net (Red)",
+            "5″ Double Net (Red)",
             "125MM",
             "1.5MM",
             "22.2MM",
             "600 Pcs"
           ],
           [
-            "5\u2033 Double Net (Green)",
+            "5″ Double Net (Green)",
             "125MM",
             "1.5MM",
             "22.2MM",
@@ -12940,7 +14036,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "abrasives"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6981,
@@ -12966,28 +14068,28 @@
         ],
         "rows": [
           [
-            "4\u2033 Single Net",
+            "4″ Single Net",
             "107MM",
             "1.2MM",
             "16MM",
             "800 Pcs"
           ],
           [
-            "4\u2033 Double Net",
+            "4″ Double Net",
             "107MM",
             "1.2MM",
             "16MM",
             "900 Pcs"
           ],
           [
-            "14\u2033 Double Net",
+            "14″ Double Net",
             "355MM",
             "2.8MM",
             "25.4MM",
             "30 Pcs"
           ],
           [
-            "14\u2033 Single Net",
+            "14″ Single Net",
             "355MM",
             "2.8MM",
             "25.4MM",
@@ -13012,7 +14114,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "abrasives"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6980,
@@ -13038,7 +14146,7 @@
         ],
         "rows": [
           [
-            "4\u2033 Double Net",
+            "4″ Double Net",
             "107MM",
             "1.2MM",
             "16MM",
@@ -13078,7 +14186,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "abrasives"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6979,
@@ -13104,7 +14218,7 @@
         ],
         "rows": [
           [
-            "4\u2033 Double Net",
+            "4″ Double Net",
             "107MM",
             "1.2MM",
             "16MM",
@@ -13134,7 +14248,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "abrasives"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6978,
@@ -13160,14 +14280,14 @@
         ],
         "rows": [
           [
-            "4\u2033 Double Net",
+            "4″ Double Net",
             "107MM",
             "1.2MM",
             "16MM",
             "800 Pcs"
           ],
           [
-            "14\u2033 Double Net",
+            "14″ Double Net",
             "355MM",
             "2.8MM",
             "25.4MM",
@@ -13192,7 +14312,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "abrasives"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6977,
@@ -13218,28 +14344,28 @@
         ],
         "rows": [
           [
-            "4\u2033 Double Net",
+            "4″ Double Net",
             "107MM",
             "1.2MM",
             "16MM",
             "800 Pcs"
           ],
           [
-            "5\u2033 Double Net",
+            "5″ Double Net",
             "125MM",
             "1.5MM",
             "22.2MM",
             "500 Pcs"
           ],
           [
-            "7\u2033 Double Net",
+            "7″ Double Net",
             "180MM",
             "1.8MM",
             "22.2MM",
             "400 Pcs"
           ],
           [
-            "14\u2033 Double Net",
+            "14″ Double Net",
             "355MM",
             "2.8MM",
             "25.4MM",
@@ -13264,7 +14390,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "abrasives"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6975,
@@ -13290,21 +14422,21 @@
         ],
         "rows": [
           [
-            "4\u2033 Double Net",
+            "4″ Double Net",
             "107MM",
             "1.2MM",
             "16MM",
             "800 Pcs"
           ],
           [
-            "5\u2033 Double Net",
+            "5″ Double Net",
             "125MM",
             "1.5MM",
             "22.2MM",
             "500 Pcs"
           ],
           [
-            "14\u2033 Double Net",
+            "14″ Double Net",
             "355MM",
             "2.8MM",
             "25.4MM",
@@ -13329,7 +14461,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "abrasives"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6974,
@@ -13384,7 +14522,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-firstchoice",
+    "is_new": false,
+    "local_image": "assets/images/series/yorker_firstchoice.png"
   },
   {
     "id": 6973,
@@ -13400,7 +14544,7 @@
       "FC-CM4SB",
       "1205"
     ],
-    "intro": "Marble Cutter Manufacturer in India \u2013 Yorker Tools Centre Looking for a reliable Marble Cutter Manufacturer in India? Yorker Tools Centre delivers precision-engineered marble cutting machines trusted by contractors, masons, and construction professionals nationwide. Whether you need tools for marble, granite, ceramic tiles, or stone slabs \u2014 we have the right cutter for every job. Who We Are Yorker Tools Centre is a leading Marble Cutter Manufacturer based in India, specialising in high-performance power tools for the stone and construction industry. With years of manufacturing experience, we c",
+    "intro": "Marble Cutter Manufacturer in India – Yorker Tools Centre Looking for a reliable Marble Cutter Manufacturer in India? Yorker Tools Centre delivers precision-engineered marble cutting machines trusted by contractors, masons, and construction professionals nationwide. Whether you need tools for marble, granite, ceramic tiles, or stone slabs — we have the right cutter for every job. Who We Are Yorker Tools Centre is a leading Marble Cutter Manufacturer based in India, specialising in high-performance power tools for the stone and construction industry. With years of manufacturing experience, we c",
     "specs": [
       {
         "kind": "kv",
@@ -13444,7 +14588,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-firstchoice",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6971,
@@ -13499,7 +14649,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-firstchoice",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6970,
@@ -13554,7 +14710,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-firstchoice",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6969,
@@ -13609,7 +14771,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-firstchoice",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6967,
@@ -13664,7 +14832,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-firstchoice",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6965,
@@ -13701,7 +14875,7 @@
           ],
           [
             "No Load Speed",
-            "0\u20137500 BPM"
+            "0–7500 BPM"
           ]
         ]
       }
@@ -13727,7 +14901,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "cordless-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6964,
@@ -13764,7 +14944,7 @@
           ],
           [
             "No Load Speed",
-            "0\u20137500 BPM"
+            "0–7500 BPM"
           ]
         ]
       }
@@ -13780,7 +14960,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "cordless-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6958,
@@ -13838,7 +15024,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-pro",
+    "is_new": false,
+    "local_image": "assets/images/series/yorker_pro.png"
   },
   {
     "id": 6957,
@@ -13896,7 +15088,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-pro",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6956,
@@ -13938,7 +15136,7 @@
           ],
           [
             "Planing Size",
-            "82 \u00d7 2 mm"
+            "82 × 2 mm"
           ]
         ]
       }
@@ -13954,7 +15152,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-pro",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6955,
@@ -14012,7 +15216,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-pro",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6954,
@@ -14070,7 +15280,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-pro",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6953,
@@ -14096,7 +15312,7 @@
           ],
           [
             "Skid Length",
-            "559 mm (22\u2033)"
+            "559 mm (22″)"
           ],
           [
             "Switch Lock Button",
@@ -14136,7 +15352,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-pro",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6952,
@@ -14162,7 +15384,7 @@
           ],
           [
             "Skid Length",
-            "559 mm (22\u2033)"
+            "559 mm (22″)"
           ],
           [
             "Switch Lock Button",
@@ -14206,7 +15428,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-pro",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6951,
@@ -14244,7 +15472,7 @@
           ],
           [
             "No Load Speed",
-            "900\u20131890 RPM"
+            "900–1890 RPM"
           ]
         ]
       }
@@ -14260,7 +15488,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-pro",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6950,
@@ -14318,7 +15552,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-pro",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6949,
@@ -14401,11 +15641,17 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-pro",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6948,
-    "name": "PRO-CS16 16\u2033 CHAIN SAW",
+    "name": "PRO-CS16 16″ CHAIN SAW",
     "slug": "pro-cs16-16-chain-saw",
     "url": "https://yorkertoolscentre.com/product/pro-cs16-16-chain-saw/",
     "categories": [
@@ -14455,7 +15701,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-pro",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6947,
@@ -14513,7 +15765,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-pro",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6946,
@@ -14571,7 +15829,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-pro",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6945,
@@ -14629,7 +15893,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-pro",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6944,
@@ -14687,7 +15957,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-pro-plus",
+    "is_new": false,
+    "local_image": "assets/images/series/yorker_pro_plus.png"
   },
   {
     "id": 6943,
@@ -14745,7 +16021,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-pro-plus",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6942,
@@ -14803,7 +16085,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-googly",
+    "is_new": false,
+    "local_image": "assets/images/series/yorker_googly.png"
   },
   {
     "id": 6941,
@@ -14861,7 +16149,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-googly",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6940,
@@ -14919,7 +16213,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-googly",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6939,
@@ -14961,7 +16261,7 @@
           ],
           [
             "Air Flow Range",
-            "2.1\u20134 CMM"
+            "2.1–4 CMM"
           ],
           [
             "Quantity",
@@ -14985,7 +16285,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-googly",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6938,
@@ -15051,7 +16357,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-googly",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6937,
@@ -15109,7 +16421,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-googly",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6936,
@@ -15151,7 +16469,7 @@
           ],
           [
             "Air Flow Range",
-            "2.1\u20134 CMM"
+            "2.1–4 CMM"
           ],
           [
             "Brand Name",
@@ -15175,7 +16493,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-googly",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6935,
@@ -15241,7 +16565,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-googly",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6934,
@@ -15307,7 +16637,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-googly",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6933,
@@ -15349,7 +16685,7 @@
           ],
           [
             "Temperature",
-            "I: 80\u2013350\u00b0C II: 80\u2013600\u00b0C"
+            "I: 80–350°C II: 80–600°C"
           ],
           [
             "Quantity",
@@ -15373,7 +16709,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-gold",
+    "is_new": false,
+    "local_image": "assets/images/series/yorker_gold.png"
   },
   {
     "id": 6932,
@@ -15415,11 +16757,11 @@
           ],
           [
             "No Load Speed",
-            "0\u201313000 RPM"
+            "0–13000 RPM"
           ],
           [
             "Air Volume",
-            "2.3 m\u00b3/min"
+            "2.3 m³/min"
           ],
           [
             "Quantity",
@@ -15439,7 +16781,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-gold",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6931,
@@ -15509,7 +16857,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-gold",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6930,
@@ -15579,7 +16933,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-gold",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6928,
@@ -15649,7 +17009,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-gold",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6927,
@@ -15711,7 +17077,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-gold",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6926,
@@ -15773,7 +17145,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-gold",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6918,
@@ -15843,7 +17221,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker",
+    "is_new": false,
+    "local_image": "assets/images/series/yorker.png"
   },
   {
     "id": 6917,
@@ -15913,7 +17297,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6916,
@@ -15983,7 +17373,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6914,
@@ -16053,7 +17449,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6913,
@@ -16123,7 +17525,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6912,
@@ -16173,7 +17581,7 @@
           ],
           [
             "No Load Speed",
-            "0\u20132300"
+            "0–2300"
           ],
           [
             "Wheel Size",
@@ -16193,7 +17601,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6910,
@@ -16263,7 +17677,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6909,
@@ -16333,7 +17753,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6907,
@@ -16407,7 +17833,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6905,
@@ -16485,7 +17917,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6904,
@@ -16563,7 +18001,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6903,
@@ -16641,7 +18085,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6902,
@@ -16716,7 +18166,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6901,
@@ -16791,7 +18247,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6900,
@@ -16857,7 +18319,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6899,
@@ -16935,7 +18403,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6898,
@@ -17013,7 +18487,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6897,
@@ -17111,7 +18591,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6894,
@@ -17145,42 +18631,42 @@
         "rows": [
           [
             "YK-PLNM 4",
-            "4\u2033",
+            "4″",
             "10 cm",
             "2 vials",
             "288Pcs."
           ],
           [
             "YK-PLNM 6",
-            "6\u2033",
+            "6″",
             "15 cm",
             "3 vials",
             "288Pcs."
           ],
           [
             "ECO-PLNM 9",
-            "9\u2033 ECO",
+            "9″ ECO",
             "22.86 cm",
             "3 vials",
             "240Pcs."
           ],
           [
             "HEY-PLNM 9",
-            "9\u2033 HEAVY",
+            "9″ HEAVY",
             "22.86 cm",
             "3 vials",
             "240Pcs."
           ],
           [
             "ECO-PLNM 12",
-            "12\u2033 ECO",
+            "12″ ECO",
             "30 cm",
             "3 vials",
             "120Pcs."
           ],
           [
             "YK-PLNM 12",
-            "12\u2033 (YORKER)",
+            "12″ (YORKER)",
             "30 cm",
             "3 vials",
             "120Pcs."
@@ -17209,7 +18695,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "spirit-level"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6891,
@@ -17243,42 +18735,42 @@
         "rows": [
           [
             "YK-PLM 4",
-            "4\u2033",
+            "4″",
             "10 cm",
             "2 vials",
             "288Pcs."
           ],
           [
             "YK-PLM 6",
-            "6\u2033",
+            "6″",
             "15 cm",
             "3 vials",
             "288Pcs."
           ],
           [
             "ECO-PLM 9",
-            "9\u2033 ECO",
+            "9″ ECO",
             "22.86 cm",
             "3 vials",
             "240Pcs."
           ],
           [
             "HEY-PLM 9",
-            "9\u2033 HEAVY",
+            "9″ HEAVY",
             "22.86 cm",
             "3 vials",
             "240Pcs."
           ],
           [
             "ECO-PLM 12",
-            "12\u2033 ECO",
+            "12″ ECO",
             "30 cm",
             "3 vials",
             "120Pcs."
           ],
           [
             "YK-PLM 12",
-            "12\u2033 (YORKER)",
+            "12″ (YORKER)",
             "30 cm",
             "3 vials",
             "120Pcs."
@@ -17307,7 +18799,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "spirit-level"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6892,
@@ -17357,7 +18855,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "measuring-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6890,
@@ -17385,12 +18889,12 @@
         "rows": [
           [
             "SS-3016",
-            "16 (3 mtr \u00d7 16 mm)",
+            "16 (3 mtr × 16 mm)",
             "500"
           ],
           [
             "SS-5019",
-            "19 (5 mtr \u00d7 19 mm)",
+            "19 (5 mtr × 19 mm)",
             "500"
           ]
         ]
@@ -17407,7 +18911,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "measuring-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6889,
@@ -17435,12 +18945,12 @@
         "rows": [
           [
             "2 in 1 -3016",
-            "(3 mtr \u00d7 16 mm)",
+            "(3 mtr × 16 mm)",
             "240"
           ],
           [
             "2 in 1 -5019",
-            "(5 mtr \u00d7 19 mm)",
+            "(5 mtr × 19 mm)",
             "120"
           ]
         ]
@@ -17457,7 +18967,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "measuring-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6887,
@@ -17485,12 +19001,12 @@
         "rows": [
           [
             "AS-3016",
-            "(3 mtr \u00d7 16 mm)",
+            "(3 mtr × 16 mm)",
             "240"
           ],
           [
             "AS-5019",
-            "(5 mtr \u00d7 19 mm)",
+            "(5 mtr × 19 mm)",
             "120"
           ]
         ]
@@ -17507,7 +19023,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "measuring-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6886,
@@ -17535,12 +19057,12 @@
         "rows": [
           [
             "JP-3016",
-            "(3 mtr \u00d7 16 mm)",
+            "(3 mtr × 16 mm)",
             "240"
           ],
           [
             "JP-5019",
-            "(5 mtr \u00d7 19 mm)",
+            "(5 mtr × 19 mm)",
             "120"
           ]
         ]
@@ -17557,7 +19079,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "measuring-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6885,
@@ -17585,12 +19113,12 @@
         "rows": [
           [
             "NL-3016",
-            "(3 mtr \u00d7 16 mm)",
+            "(3 mtr × 16 mm)",
             "240"
           ],
           [
             "NL-5019",
-            "(5 mtr \u00d7 19 mm)",
+            "(5 mtr × 19 mm)",
             "120"
           ]
         ]
@@ -17607,7 +19135,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "measuring-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6884,
@@ -17635,12 +19169,12 @@
         "rows": [
           [
             "FC-3016",
-            "(3 mtr \u00d7 16 mm)",
+            "(3 mtr × 16 mm)",
             "240"
           ],
           [
             "FC-5019",
-            "(5 mtr \u00d7 19 mm)",
+            "(5 mtr × 19 mm)",
             "120"
           ]
         ]
@@ -17657,7 +19191,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "measuring-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6880,
@@ -17685,12 +19225,12 @@
         "rows": [
           [
             "BW-3016",
-            "(3 mtr \u00d7 16 mm)",
+            "(3 mtr × 16 mm)",
             "240"
           ],
           [
             "BW-5019",
-            "(5 mtr \u00d7 19 mm)",
+            "(5 mtr × 19 mm)",
             "120"
           ]
         ]
@@ -17707,7 +19247,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "measuring-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6881,
@@ -17757,7 +19303,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "measuring-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6878,
@@ -17785,12 +19337,12 @@
         "rows": [
           [
             "PF-3016",
-            "Perfect \u2013 16 (3 mtr \u00d7 16 mm)",
+            "Perfect – 16 (3 mtr × 16 mm)",
             "240"
           ],
           [
             "PF-5019",
-            "Perfect \u2013 16 (5 mtr \u00d7 19 mm)",
+            "Perfect – 16 (5 mtr × 19 mm)",
             "120"
           ]
         ]
@@ -17807,7 +19359,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "measuring-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6879,
@@ -17850,98 +19408,98 @@
         "rows": [
           [
             "PR-ALNM 6",
-            "6\u2033",
+            "6″",
             "15 cm",
             "3 vials",
             "120Pcs."
           ],
           [
             "PR-ALNM 12",
-            "12\u2033",
+            "12″",
             "30 cm",
             "3 vials",
             "60Pcs."
           ],
           [
             "PR-ALNM 16",
-            "16\u2033",
+            "16″",
             "40 cm",
             "3 vials",
             "80Pcs."
           ],
           [
             "PR-ALNM 18",
-            "18\u2033",
+            "18″",
             "45 cm",
             "3 vials",
             "80Pcs."
           ],
           [
             "PR-ALNM 20",
-            "20\u2033",
+            "20″",
             "50 cm",
             "3 vials",
             "80Pcs."
           ],
           [
             "PR-ALNM 24",
-            "24\u2033",
+            "24″",
             "60 cm",
             "3 vials",
             "60Pcs."
           ],
           [
             "PR-ALNM 28",
-            "28\u2033",
+            "28″",
             "70 cm",
             "3 vials",
             "60Pcs."
           ],
           [
             "PR-ALNM 32",
-            "32\u2033",
+            "32″",
             "80 cm",
             "3 vials",
             "40Pcs."
           ],
           [
             "PR-ALNM 36",
-            "36\u2033",
+            "36″",
             "90 cm",
             "3 vials",
             "40Pcs."
           ],
           [
             "PR-ALNM 40",
-            "40\u2033",
+            "40″",
             "100 cm",
             "4 vials",
             "20Pcs."
           ],
           [
             "PR-ALNM 48",
-            "48\u2033",
+            "48″",
             "120 cm",
             "4 vials",
             "20Pcs."
           ],
           [
             "PR-ALNM 60",
-            "60\u2033",
+            "60″",
             "150 cm",
             "4 vials",
             "10Pcs."
           ],
           [
             "PR-ALNM 72",
-            "72\u2033",
+            "72″",
             "180 cm",
             "4 vials",
             "10Pcs."
           ],
           [
             "PR-ALNM 80",
-            "80\u2033",
+            "80″",
             "200 cm",
             "4 vials",
             "10Pcs."
@@ -17960,7 +19518,14 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "measuring-tools",
+      "spirit-level"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6876,
@@ -17988,12 +19553,12 @@
         "rows": [
           [
             "PR-3016",
-            "PRO-16 (3 mtr \u00d7 16 mm)",
+            "PRO-16 (3 mtr × 16 mm)",
             "240"
           ],
           [
             "PR-5019",
-            "PRO-19 (5 mtr \u00d7 19 mm)",
+            "PRO-19 (5 mtr × 19 mm)",
             "120"
           ]
         ]
@@ -18010,11 +19575,17 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "measuring-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6873,
-    "name": "MEASURING TAPES  Y \u2013 Series",
+    "name": "MEASURING TAPES  Y – Series",
     "slug": "measuring-tapes-y-series",
     "url": "https://yorkertoolscentre.com/product/measuring-tapes-y-series/",
     "categories": [
@@ -18038,12 +19609,12 @@
         "rows": [
           [
             "YK-3016",
-            "Y-16 (3 mtr \u00d7 16 mm)",
+            "Y-16 (3 mtr × 16 mm)",
             "240"
           ],
           [
             "YK-5019",
-            "Y-19 (5 mtr \u00d7 19 mm)",
+            "Y-19 (5 mtr × 19 mm)",
             "120"
           ]
         ]
@@ -18060,7 +19631,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "measuring-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6874,
@@ -18103,98 +19680,98 @@
         "rows": [
           [
             "PR-ALM 6",
-            "6\u2033",
+            "6″",
             "15 cm",
             "3 vials",
             "120Pcs."
           ],
           [
             "PR-ALM 12",
-            "12\u2033",
+            "12″",
             "30 cm",
             "3 vials",
             "60Pcs."
           ],
           [
             "PR-ALM 16",
-            "16\u2033",
+            "16″",
             "40 cm",
             "3 vials",
             "80Pcs."
           ],
           [
             "PR-ALM 18",
-            "18\u2033",
+            "18″",
             "45 cm",
             "3 vials",
             "80Pcs."
           ],
           [
             "PR-ALM 20",
-            "20\u2033",
+            "20″",
             "50 cm",
             "3 vials",
             "80Pcs."
           ],
           [
             "PR-ALM 24",
-            "24\u2033",
+            "24″",
             "60 cm",
             "3 vials",
             "60Pcs."
           ],
           [
             "PR-ALM 28",
-            "28\u2033",
+            "28″",
             "70 cm",
             "3 vials",
             "60Pcs."
           ],
           [
             "PR-ALM 32",
-            "32\u2033",
+            "32″",
             "80 cm",
             "3 vials",
             "40Pcs."
           ],
           [
             "PR-ALM 36",
-            "36\u2033",
+            "36″",
             "90 cm",
             "3 vials",
             "40Pcs."
           ],
           [
             "PR-ALM 40",
-            "40\u2033",
+            "40″",
             "100 cm",
             "4 vials",
             "20Pcs."
           ],
           [
             "PR-ALM 48",
-            "48\u2033",
+            "48″",
             "120 cm",
             "4 vials",
             "20Pcs."
           ],
           [
             "PR-ALM 60",
-            "60\u2033",
+            "60″",
             "150 cm",
             "4 vials",
             "10Pcs."
           ],
           [
             "PR-ALM 72",
-            "72\u2033",
+            "72″",
             "180 cm",
             "4 vials",
             "10Pcs."
           ],
           [
             "PR-ALM 80",
-            "80\u2033",
+            "80″",
             "200 cm",
             "4 vials",
             "10Pcs."
@@ -18228,7 +19805,14 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "measuring-tools",
+      "spirit-level"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6829,
@@ -18296,7 +19880,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "measuring-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6706,
@@ -18322,7 +19912,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "measuring-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6705,
@@ -18348,7 +19944,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "measuring-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6704,
@@ -18388,7 +19990,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "measuring-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6703,
@@ -18428,7 +20036,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "measuring-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6702,
@@ -18496,7 +20110,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "measuring-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6693,
@@ -18546,7 +20166,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "measuring-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6691,
@@ -18575,7 +20201,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "measuring-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6690,
@@ -18604,7 +20236,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "measuring-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6689,
@@ -18633,7 +20271,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "measuring-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6687,
@@ -18662,7 +20306,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "measuring-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6686,
@@ -18691,7 +20341,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "measuring-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6662,
@@ -18724,7 +20380,7 @@
           ],
           [
             "No Load Speed",
-            "0\u20137000 RPM"
+            "0–7000 RPM"
           ],
           [
             "Max Thread",
@@ -18759,7 +20415,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "cordless-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6661,
@@ -18784,7 +20446,7 @@
           ],
           [
             "Size of Socket",
-            "M18\u201327 mm"
+            "M18–27 mm"
           ],
           [
             "Max Torque",
@@ -18796,11 +20458,11 @@
           ],
           [
             "No Load Speed",
-            "0\u20132400 RPM"
+            "0–2400 RPM"
           ],
           [
             "Impact Frequency",
-            "0\u20133400 BPM"
+            "0–3400 BPM"
           ]
         ]
       }
@@ -18816,7 +20478,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "cordless-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6660,
@@ -18841,7 +20509,7 @@
           ],
           [
             "Cutting Diameter",
-            "21\u201320 cm"
+            "21–20 cm"
           ],
           [
             "Battery Voltage",
@@ -18853,11 +20521,11 @@
           ],
           [
             "No Load Speed",
-            "0\u201310000 RPM"
+            "0–10000 RPM"
           ],
           [
             "Bar Size",
-            "8\u201312 inch"
+            "8–12 inch"
           ]
         ]
       }
@@ -18888,7 +20556,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "cordless-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6659,
@@ -18917,7 +20591,7 @@
           ],
           [
             "Maximum Air Volume",
-            "3 m\u00b3/min"
+            "3 m³/min"
           ],
           [
             "Battery Voltage",
@@ -18925,7 +20599,7 @@
           ],
           [
             "No Load Speed",
-            "0\u201316000 RPM"
+            "0–16000 RPM"
           ]
         ]
       }
@@ -18956,7 +20630,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "cordless-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6658,
@@ -19018,7 +20698,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "cordless-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6657,
@@ -19043,7 +20729,7 @@
           ],
           [
             "Variable Speed",
-            "0\u2013400 / 0\u20131400 RPM"
+            "0–400 / 0–1400 RPM"
           ],
           [
             "Voltage",
@@ -19059,7 +20745,7 @@
           ],
           [
             "Drill Capacity",
-            "0.8\u201310 mm"
+            "0.8–10 mm"
           ]
         ]
       }
@@ -19085,7 +20771,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "cordless-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6582,
@@ -19111,7 +20803,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "power-tools"
+    ],
+    "series_slug": "yorker-gold",
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6594,
@@ -19128,7 +20826,11 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6593,
@@ -19145,7 +20847,11 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6592,
@@ -19170,7 +20876,7 @@
           ],
           [
             "Variable Speed",
-            "0\u2013350 / 0\u20131350 RPM"
+            "0–350 / 0–1350 RPM"
           ],
           [
             "Voltage",
@@ -19186,7 +20892,7 @@
           ],
           [
             "Drill Capacity",
-            "0.8\u201310 mm"
+            "0.8–10 mm"
           ]
         ]
       }
@@ -19217,7 +20923,13 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [
+      "cordless-tools"
+    ],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6562,
@@ -19234,7 +20946,11 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 6561,
@@ -19251,7 +20967,11 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   },
   {
     "id": 5911,
@@ -19268,6 +20988,10 @@
       "new": false,
       "bestseller": false,
       "featured": false
-    }
+    },
+    "category_slugs": [],
+    "series_slug": null,
+    "is_new": false,
+    "local_image": null
   }
 ]
