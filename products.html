@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Products (293) | Yorker Tools Centre Delhi</title>
+  <meta name="description" content="Browse all 293 industrial power tools, saw blades, abrasives, measuring tapes and hand tools manufactured by Yorker Engineering Delhi.">
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .catalog-header {
+      padding: 40px 0 24px;
+      background: var(--color-bg);
+      border-bottom: 1px solid var(--color-border);
+    }
+    .catalog-layout {
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      gap: 36px;
+      padding: 36px 0 60px;
+    }
+    .filter-sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .filter-card {
+      background: #FFFFFF;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      padding: 18px;
+    }
+    .filter-title {
+      font-size: 0.9375rem;
+      font-weight: 800;
+      color: var(--color-text-title);
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .filter-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .filter-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 6px 10px;
+      border-radius: 4px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--color-text-body);
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .filter-item:hover, .filter-item.active {
+      background-color: var(--color-card-bg);
+      color: var(--color-primary);
+    }
+    .filter-badge {
+      font-size: 0.75rem;
+      color: var(--color-text-muted);
+      background: #F1F5F9;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+    .catalog-main {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+    .catalog-controls {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+      background: #FFFFFF;
+      padding: 14px 20px;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+    }
+    .catalog-count {
+      font-size: 0.9375rem;
+      font-weight: 700;
+      color: var(--color-text-title);
+    }
+    .grid-products {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    .product-box {
+      background: #FFFFFF;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: var(--transition);
+      cursor: pointer;
+    }
+    .product-box:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--color-primary);
+    }
+    .product-box-img {
+      width: 100%;
+      aspect-ratio: 1.25 / 1;
+      background: var(--color-card-bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    .product-box-img img {
+      max-height: 80%;
+      max-width: 80%;
+      object-fit: contain;
+      transition: transform 0.3s ease;
+    }
+    .product-box:hover .product-box-img img {
+      transform: scale(1.06);
+    }
+    .product-box-details {
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      flex: 1;
+    }
+    .product-box-brand {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--color-primary);
+      text-transform: uppercase;
+    }
+    .product-box-name {
+      font-size: 1rem;
+      font-weight: 800;
+      color: var(--color-text-title);
+      line-height: 1.25;
+    }
+    .product-box-model {
+      font-size: 0.8125rem;
+      color: var(--color-text-muted);
+    }
+    .product-box-action {
+      margin-top: auto;
+      padding-top: 10px;
+      border-top: 1px solid var(--color-border-subtle);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .btn-quick-spec {
+      font-size: 0.8125rem;
+      font-weight: 700;
+      color: var(--color-blue-link);
+      background: none;
+      border: none;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+    .pagination {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 20px;
+    }
+    .page-btn {
+      padding: 8px 14px;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-sm);
+      background: #FFFFFF;
+      font-weight: 700;
+      font-size: 0.875rem;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .page-btn.active, .page-btn:hover {
+      background: var(--color-primary);
+      color: #FFFFFF;
+      border-color: var(--color-primary);
+    }
+    @media (max-width: 900px) {
+      .catalog-layout {
+        grid-template-columns: 1fr;
+      }
+      .grid-products {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (max-width: 580px) {
+      .grid-products {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-left">Bharat ka vishwas, mazboot tools ke saath</div>
+      <div class="topbar-right">
+        <a href="tel:+911145143354" class="topbar-item">011 4514 3354</a>
+        <div class="topbar-divider"></div>
+        <a href="mailto:sales@yorkertoolscentre.com" class="topbar-item">sales@yorkertoolscentre.com</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-main">
+      <div class="container header-row">
+        <a href="index.html" class="brand-logo">
+          <img src="assets/images/logo.png" alt="Yorker Logo">
+        </a>
+        <div class="header-search">
+          <form class="search-form" id="searchForm">
+            <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" id="searchInput" class="search-input" placeholder="Search tools or model number">
+            <div id="searchSuggestions" class="search-suggestions"></div>
+          </form>
+        </div>
+        <a href="index.html#dealers" class="btn-dealer-header">Become a dealer</a>
+      </div>
+    </div>
+    <nav class="site-nav">
+      <div class="container">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="products.html" class="nav-link active">Products</a></li>
+          <li class="nav-item"><a href="index.html#new-arrivals" class="nav-link">New arrivals</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About us</a></li>
+          <li class="nav-item"><a href="catalogues.html" class="nav-link">Catalogues</a></li>
+          <li class="nav-item"><a href="videos.html" class="nav-link">Videos and resources</a></li>
+          <li class="nav-item"><a href="index.html#contact" class="nav-link">Contact us</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Catalog Heading -->
+  <section class="catalog-header">
+    <div class="container">
+      <h1 style="font-size: 2.25rem; font-weight: 800; color: var(--color-text-title);">Products Directory</h1>
+      <p style="color: var(--color-text-body); margin-top: 4px;">Explore all 293 precision power tools, industrial blades, abrasives and hand tools.</p>
+    </div>
+  </section>
+
+  <!-- Catalog Layout -->
+  <div class="container catalog-layout">
+    <!-- Left Filter Sidebar -->
+    <aside class="filter-sidebar">
+      <div class="filter-card">
+        <div class="filter-title">Categories</div>
+        <ul class="filter-list" id="categoryFilterList">
+          <li class="filter-item active" data-cat="all">
+            <span>All Categories</span>
+            <span class="filter-badge">293</span>
+          </li>
+          <li class="filter-item" data-cat="power-tools"><span>Power tools</span><span class="filter-badge">57</span></li>
+          <li class="filter-item" data-cat="cordless-tools"><span>Cordless tools</span><span class="filter-badge">9</span></li>
+          <li class="filter-item" data-cat="measuring-tools"><span>Measuring tapes</span><span class="filter-badge">26</span></li>
+          <li class="filter-item" data-cat="spirit-level"><span>Spirit levels</span><span class="filter-badge">4</span></li>
+          <li class="filter-item" data-cat="abrasives"><span>Abrasives</span><span class="filter-badge">28</span></li>
+          <li class="filter-item" data-cat="diamond-saw-blades"><span>Diamond saw blades</span><span class="filter-badge">31</span></li>
+          <li class="filter-item" data-cat="tct-saw-blades"><span>TCT saw blades</span><span class="filter-badge">9</span></li>
+          <li class="filter-item" data-cat="hand-tools"><span>Hand tools</span><span class="filter-badge">45</span></li>
+          <li class="filter-item" data-cat="sds-drill-bits-chisels"><span>SDS bits & chisels</span><span class="filter-badge">10</span></li>
+          <li class="filter-item" data-cat="agriculture-machines"><span>Agriculture machines</span><span class="filter-badge">15</span></li>
+          <li class="filter-item" data-cat="spare-parts"><span>Spare parts</span><span class="filter-badge">8</span></li>
+          <li class="filter-item" data-cat="accessories"><span>Accessories</span><span class="filter-badge">36</span></li>
+        </ul>
+      </div>
+
+      <div class="filter-card">
+        <div class="filter-title">Power Tool Series</div>
+        <ul class="filter-list" id="seriesFilterList">
+          <li class="filter-item" data-series="all"><span>All Series</span></li>
+          <li class="filter-item" data-series="yorker"><span>Yorker Standard</span></li>
+          <li class="filter-item" data-series="pro"><span>Yorker Pro</span></li>
+          <li class="filter-item" data-series="gold"><span>Yorker Gold</span></li>
+          <li class="filter-item" data-series="googly"><span>Yorker Googly</span></li>
+          <li class="filter-item" data-series="firstchoice"><span>Yorker FirstChoice</span></li>
+          <li class="filter-item" data-series="pro-plus"><span>Yorker Pro+</span></li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- Right Main Content -->
+    <main class="catalog-main">
+      <div class="catalog-controls">
+        <div class="catalog-count" id="catalogCount">Showing 293 products</div>
+        <div style="display:flex; gap:12px; align-items:center;">
+          <input type="text" id="catalogFilterInput" class="form-input" placeholder="Filter in results..." style="width:220px; padding:6px 12px; font-size:0.875rem;">
+        </div>
+      </div>
+
+      <div class="grid-products" id="productsGrid">
+        <!-- Injected via JavaScript -->
+      </div>
+
+      <div class="pagination" id="paginationControls"></div>
+    </main>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-company-name">Yorker Engineering Pvt Ltd</div>
+          <address class="footer-address">5093, Gali Phatak Bans Wali, Sirkiwalan, Lal Kuan, Chawri Bazar, Delhi 110006</address>
+          <div class="footer-contact-item">
+            <span><a href="tel:+911145143354">011 4514 3354</a>, 011 4356 1778</span>
+            <span><a href="mailto:sales@yorkertoolscentre.com">sales@yorkertoolscentre.com</a></span>
+          </div>
+          <a href="https://wa.me/919999118454" target="_blank" class="btn-whatsapp-footer">WhatsApp sales</a>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Products</div>
+          <ul class="footer-links">
+            <li><a href="products.html?cat=power-tools">Power tools</a></li>
+            <li><a href="products.html?cat=cordless-tools">Cordless tools</a></li>
+            <li><a href="products.html?cat=measuring-tools">Measuring tapes</a></li>
+            <li><a href="products.html?cat=spirit-level">Spirit levels</a></li>
+            <li><a href="products.html?cat=abrasives">Abrasives</a></li>
+            <li><a href="products.html?cat=diamond-saw-blades">Diamond saw blades</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">For business</div>
+          <ul class="footer-links">
+            <li><a href="index.html#dealers">Become a dealer</a></li>
+            <li><a href="index.html#dealers">Bulk orders</a></li>
+            <li><a href="catalogues.html">Catalogues</a></li>
+            <li><a href="dealers.html">Dealer login</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Follow</div>
+          <ul class="footer-links">
+            <li><a href="https://www.facebook.com/yorkertoolscentre/" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/yorkertoolscentre/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.youtube.com/channel/UCeBzUmk27hZVg0gaiVjolTA" target="_blank">YouTube</a></li>
+            <li><a href="https://in.pinterest.com/officeyorker/" target="_blank">Pinterest</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 Yorker Engineering Pvt Ltd</div>
+        <div class="footer-bottom-links">
+          <a href="privacy.html">Privacy policy</a>
+          <a href="terms.html">Terms and conditions</a>
+          <a href="cancellation.html">Cancellation policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Product Modal -->
+  <div class="modal-overlay" id="productModal" role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <button type="button" class="modal-close-btn" id="modalCloseBtn">&times;</button>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="assets/js/app.js"></script>
+  <script>
+    let allCatalogProducts = [];
+    let filteredList = [];
+    let currentPage = 1;
+    const PAGE_SIZE = 24;
+    let selectedCat = 'all';
+    let selectedSeries = 'all';
+
+    async function initCatalog() {
+      allCatalogProducts = await loadProducts();
+      
+      // Parse URL parameters
+      const urlParams = new URLSearchParams(window.location.search);
+      const queryParam = urlParams.get('q');
+      const catParam = urlParams.get('cat');
+      const seriesParam = urlParams.get('series');
+
+      if (catParam) selectedCat = catParam;
+      if (seriesParam) selectedSeries = seriesParam;
+
+      // Update active category in sidebar
+      document.querySelectorAll('#categoryFilterList .filter-item').forEach(item => {
+        if (item.getAttribute('data-cat') === selectedCat) {
+          document.querySelectorAll('#categoryFilterList .filter-item').forEach(i => i.classList.remove('active'));
+          item.classList.add('active');
+        }
+      });
+
+      // Filter input
+      const filterInput = document.getElementById('catalogFilterInput');
+      if (queryParam && filterInput) {
+        filterInput.value = queryParam;
+      }
+
+      filterInput.addEventListener('input', () => {
+        currentPage = 1;
+        applyFilters();
+      });
+
+      // Sidebar events
+      document.querySelectorAll('#categoryFilterList .filter-item').forEach(item => {
+        item.addEventListener('click', () => {
+          document.querySelectorAll('#categoryFilterList .filter-item').forEach(i => i.classList.remove('active'));
+          item.classList.add('active');
+          selectedCat = item.getAttribute('data-cat');
+          currentPage = 1;
+          applyFilters();
+        });
+      });
+
+      document.querySelectorAll('#seriesFilterList .filter-item').forEach(item => {
+        item.addEventListener('click', () => {
+          document.querySelectorAll('#seriesFilterList .filter-item').forEach(i => i.classList.remove('active'));
+          item.classList.add('active');
+          selectedSeries = item.getAttribute('data-series');
+          currentPage = 1;
+          applyFilters();
+        });
+      });
+
+      applyFilters();
+    }
+
+    function applyFilters() {
+      const q = document.getElementById('catalogFilterInput').value.trim().toLowerCase();
+
+      filteredList = allCatalogProducts.filter(p => {
+        // Search text
+        if (q) {
+          const name = p.name ? p.name.toLowerCase() : '';
+          const model = p.models ? p.models.join(' ').toLowerCase() : '';
+          if (!name.includes(q) && !model.includes(q)) return false;
+        }
+
+        // Series filter
+        if (selectedSeries !== 'all') {
+          const brand = p.brand ? p.brand.toLowerCase() : '';
+          const name = p.name ? p.name.toLowerCase() : '';
+          if (selectedSeries === 'pro' && !brand.includes('pro') && !name.includes('pro')) return false;
+          if (selectedSeries === 'gold' && !brand.includes('gold') && !name.includes('gold')) return false;
+          if (selectedSeries === 'googly' && !brand.includes('googly') && !name.includes('googly')) return false;
+          if (selectedSeries === 'firstchoice' && !brand.includes('firstchoice') && !name.includes('firstchoice')) return false;
+          if (selectedSeries === 'pro-plus' && !brand.includes('pro+') && !name.includes('pro+')) return false;
+        }
+
+        return true;
+      });
+
+      document.getElementById('catalogCount').textContent = `Showing ${filteredList.length} products`;
+      renderProductsGrid();
+      renderPagination();
+    }
+
+    function renderProductsGrid() {
+      const grid = document.getElementById('productsGrid');
+      const start = (currentPage - 1) * PAGE_SIZE;
+      const end = start + PAGE_SIZE;
+      const pageItems = filteredList.slice(start, end);
+
+      if (pageItems.length === 0) {
+        grid.innerHTML = '<div style="grid-column:1/-1; padding:40px; text-align:center; color:#64748B;">No products match your filter criteria.</div>';
+        return;
+      }
+
+      grid.innerHTML = pageItems.map(p => {
+        const imgSrc = (p.images && p.images[0] && p.images[0].thumb) || (p.images && p.images[0] && p.images[0].src) || 'assets/images/hero-demolition-hammer.png';
+        const modelStr = p.models && p.models[0] ? '#' + p.models[0] : '';
+        return `
+          <div class="product-box" onclick="openProductQuickView('${p.slug}')">
+            <div class="product-box-img">
+              <img src="${imgSrc}" alt="${escapeHtml(p.name)}" loading="lazy" onerror="this.src='assets/images/hero-demolition-hammer.png'">
+            </div>
+            <div class="product-box-details">
+              <span class="product-box-brand">${escapeHtml(p.brand || 'Yorker')}</span>
+              <h3 class="product-box-name">${escapeHtml(p.name)}</h3>
+              <span class="product-box-model">${modelStr}</span>
+              <div class="product-box-action">
+                <button type="button" class="btn-quick-spec">Quick Specs &rarr;</button>
+                <a href="https://wa.me/919999118454?text=${encodeURIComponent('Enquiry for ' + p.name)}" target="_blank" onclick="event.stopPropagation()" style="font-size:0.8125rem; font-weight:700; color:var(--color-primary);">WhatsApp &rarr;</a>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function renderPagination() {
+      const container = document.getElementById('paginationControls');
+      const totalPages = Math.ceil(filteredList.length / PAGE_SIZE);
+
+      if (totalPages <= 1) {
+        container.innerHTML = '';
+        return;
+      }
+
+      let html = '';
+      for (let i = 1; i <= Math.min(totalPages, 8); i++) {
+        html += `<button type="button" class="page-btn ${i === currentPage ? 'active' : ''}" onclick="goToPage(${i})">${i}</button>`;
+      }
+      container.innerHTML = html;
+    }
+
+    window.goToPage = function(page) {
+      currentPage = page;
+      renderProductsGrid();
+      renderPagination();
+      window.scrollTo({top: 200, behavior: 'smooth'});
+    };
+
+    document.addEventListener('DOMContentLoaded', initCatalog);
+  </script>
+</body>
+</html>

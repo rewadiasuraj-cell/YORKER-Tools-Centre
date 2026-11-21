@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Become a Dealer & Bulk Orders | Yorker Tools Centre Delhi</title>
+  <meta name="description" content="Register as an authorized Yorker hardware dealer or place bulk industrial orders. Transporter Bilti dispatch across India.">
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-left">Bharat ka vishwas, mazboot tools ke saath</div>
+      <div class="topbar-right">
+        <a href="tel:+911145143354" class="topbar-item">011 4514 3354</a>
+        <div class="topbar-divider"></div>
+        <a href="mailto:sales@yorkertoolscentre.com" class="topbar-item">sales@yorkertoolscentre.com</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-main">
+      <div class="container header-row">
+        <a href="index.html" class="brand-logo">
+          <img src="assets/images/logo.png" alt="Yorker Logo">
+        </a>
+        <div class="header-search">
+          <form class="search-form" id="searchForm">
+            <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" id="searchInput" class="search-input" placeholder="Search tools or model number">
+            <div id="searchSuggestions" class="search-suggestions"></div>
+          </form>
+        </div>
+        <a href="dealers.html" class="btn-dealer-header">Become a dealer</a>
+      </div>
+    </div>
+    <nav class="site-nav">
+      <div class="container">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="products.html" class="nav-link">Products</a></li>
+          <li class="nav-item"><a href="index.html#new-arrivals" class="nav-link">New arrivals</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About us</a></li>
+          <li class="nav-item"><a href="catalogues.html" class="nav-link">Catalogues</a></li>
+          <li class="nav-item"><a href="videos.html" class="nav-link">Videos and resources</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact us</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Dealer Section -->
+  <section class="dealer-section" style="padding: 60px 0 80px;">
+    <div class="container dealer-layout">
+      <div class="dealer-aside">
+        <h1 class="dealer-title">Become a dealer.<br>Order in bulk.</h1>
+        <p class="dealer-desc">
+          Tell us about your shop or your order. The sales team replies with trade prices and the catalogue.
+        </p>
+
+        <a href="https://wa.me/919999118454?text=Hi%20Yorker%20Sales%2C%20I%20want%20to%20become%20a%20dealer%20or%20place%20a%20bulk%20order." target="_blank" class="btn-whatsapp-outline">
+          <svg viewBox="0 0 24 24">
+            <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 14.99 3.81 13.47 3.81 11.91C3.81 7.37 7.5 3.67 12.05 3.67Z"/>
+          </svg>
+          WhatsApp the sales team
+        </a>
+
+        <a href="tel:+911145143354" class="call-link">Call 011 4514 3354</a>
+
+        <div style="background:#FFFFFF; border:1px solid var(--color-border); border-radius:var(--radius-md); padding:20px; margin-top:20px;">
+          <h3 style="font-size:1.125rem; font-weight:800; color:var(--color-text-title); margin-bottom:8px;">Dealer Benefits</h3>
+          <ul style="list-style:disc; margin-left:20px; color:var(--color-text-body); font-size:0.9375rem; display:flex; flex-direction:column; gap:6px;">
+            <li>Direct factory tier pricing &amp; volume slabs</li>
+            <li>Daily transporter dispatch (Bilti) from Delhi</li>
+            <li>Zero minimum order quantity on core fast-movers</li>
+            <li>Marketing counter stands &amp; banner support</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Tabbed Form Card -->
+      <div class="dealer-form-card">
+        <div class="form-tabs">
+          <button type="button" class="form-tab-btn active" data-tab="dealer">Dealer enquiry</button>
+          <button type="button" class="form-tab-btn" data-tab="bulk">Bulk order</button>
+        </div>
+
+        <form class="enquiry-form" id="dealerForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="contactPerson">Contact person</label>
+              <input type="text" id="contactPerson" class="form-input" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="businessName">Business name</label>
+              <input type="text" id="businessName" class="form-input" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="mobileNumber">Mobile</label>
+              <input type="tel" id="mobileNumber" class="form-input" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="emailAddress">Email</label>
+              <input type="email" id="emailAddress" class="form-input">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="businessType">Business type</label>
+              <select id="businessType" class="form-select">
+                <option value="">Choose business type</option>
+                <option value="Retail Hardware Store">Retail Hardware Store</option>
+                <option value="Wholesale Hardware Distributor">Wholesale Hardware Distributor</option>
+                <option value="Industrial Contractor">Industrial Contractor</option>
+                <option value="Fabrication Workshop">Fabrication Workshop</option>
+                <option value="Export & B2B Trader">Export &amp; B2B Trader</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="cityState">City and state</label>
+              <input type="text" id="cityState" class="form-input" placeholder="e.g. Surat, Gujarat">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="gstNumber">GST number (optional)</label>
+              <input type="text" id="gstNumber" class="form-input" placeholder="07AAAAA0000A1Z5">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="categoryInterest">Categories of interest</label>
+              <input type="text" id="categoryInterest" class="form-input" placeholder="e.g. power tools, saw blades">
+            </div>
+          </div>
+
+          <div class="form-checkbox-row">
+            <input type="checkbox" id="contactConsent" checked required>
+            <label for="contactConsent">Yorker may contact me about this enquiry.</label>
+          </div>
+
+          <button type="submit" class="btn-primary" id="formSubmitBtn">Send dealer enquiry</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-company-name">Yorker Engineering Pvt Ltd</div>
+          <address class="footer-address">5093, Gali Phatak Bans Wali, Sirkiwalan, Lal Kuan, Chawri Bazar, Delhi 110006</address>
+          <div class="footer-contact-item">
+            <span><a href="tel:+911145143354">011 4514 3354</a>, 011 4356 1778</span>
+            <span><a href="mailto:sales@yorkertoolscentre.com">sales@yorkertoolscentre.com</a></span>
+          </div>
+          <a href="https://wa.me/919999118454" target="_blank" class="btn-whatsapp-footer">WhatsApp sales</a>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Products</div>
+          <ul class="footer-links">
+            <li><a href="products.html?cat=power-tools">Power tools</a></li>
+            <li><a href="products.html?cat=cordless-tools">Cordless tools</a></li>
+            <li><a href="products.html?cat=measuring-tools">Measuring tapes</a></li>
+            <li><a href="products.html?cat=spirit-level">Spirit levels</a></li>
+            <li><a href="products.html?cat=abrasives">Abrasives</a></li>
+            <li><a href="products.html?cat=diamond-saw-blades">Diamond saw blades</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">For business</div>
+          <ul class="footer-links">
+            <li><a href="dealers.html">Become a dealer</a></li>
+            <li><a href="dealers.html">Bulk orders</a></li>
+            <li><a href="catalogues.html">Catalogues</a></li>
+            <li><a href="dealers.html">Dealer login</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Follow</div>
+          <ul class="footer-links">
+            <li><a href="https://www.facebook.com/yorkertoolscentre/" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/yorkertoolscentre/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.youtube.com/channel/UCeBzUmk27hZVg0gaiVjolTA" target="_blank">YouTube</a></li>
+            <li><a href="https://in.pinterest.com/officeyorker/" target="_blank">Pinterest</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 Yorker Engineering Pvt Ltd</div>
+        <div class="footer-bottom-links">
+          <a href="privacy.html">Privacy policy</a>
+          <a href="terms.html">Terms and conditions</a>
+          <a href="cancellation.html">Cancellation policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

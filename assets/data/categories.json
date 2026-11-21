@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "power-tools",
+    "name": "Power tools",
+    "count": 57,
+    "image": "assets/images/categories/power_tools.png"
+  },
+  {
+    "slug": "cordless-tools",
+    "name": "Cordless tools",
+    "count": 9,
+    "image": "assets/images/categories/cordless_tools.png"
+  },
+  {
+    "slug": "measuring-tools",
+    "name": "Measuring tapes",
+    "count": 26,
+    "image": "assets/images/categories/measuring_tapes.png"
+  },
+  {
+    "slug": "spirit-level",
+    "name": "Spirit levels",
+    "count": 4,
+    "image": "assets/images/categories/spirit_levels.png"
+  },
+  {
+    "slug": "abrasives",
+    "name": "Abrasives",
+    "count": 28,
+    "image": "assets/images/categories/abrasives.png"
+  },
+  {
+    "slug": "diamond-saw-blades",
+    "name": "Diamond saw blades",
+    "count": 31,
+    "image": "assets/images/categories/diamond_saw_blades.png"
+  },
+  {
+    "slug": "tct-saw-blades",
+    "name": "TCT saw blades",
+    "count": 9,
+    "image": "assets/images/categories/tct_saw_blades.png"
+  },
+  {
+    "slug": "hand-tools",
+    "name": "Hand tools",
+    "count": 45,
+    "image": "assets/images/categories/hand_tools.png"
+  },
+  {
+    "slug": "sds-drill-bits-chisels",
+    "name": "SDS bits and chisels",
+    "count": 10,
+    "image": "assets/images/categories/sds_bits.png"
+  },
+  {
+    "slug": "agriculture-machines",
+    "name": "Agriculture machines",
+    "count": 15,
+    "image": "assets/images/categories/agriculture_machines.png"
+  },
+  {
+    "slug": "spare-parts",
+    "name": "Spare parts",
+    "count": 8,
+    "image": "assets/images/categories/spare_parts.png"
+  },
+  {
+    "slug": "accessories",
+    "name": "Accessories",
+    "count": 36,
+    "image": "assets/images/categories/accessories.png"
+  }
+]
