@@ -12,3 +12,5 @@
 /video /videos/ 301
 /contact /contact-us/ 301
 /about /about-us/ 301
+
+/sitemap_index.xml /sitemap.xml 301
