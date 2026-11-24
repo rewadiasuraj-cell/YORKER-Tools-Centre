@@ -240,4 +240,17 @@
     b.replaceWith(f);
     track('video_play', { video_title: b.dataset.title });
   }));
+
+  // Floating WhatsApp button for pages without bottom mobile-bar
+  if (!document.querySelector('.mobile-bar') && !document.querySelector('.floating-wa')) {
+    const wa = document.createElement('a');
+    wa.className = 'floating-wa';
+    wa.href = 'https://wa.me/919999118454?text=Hello%20YORKER%20Tools%20Centre%2C%20I%20have%20an%20enquiry.';
+    wa.setAttribute('target', '_blank');
+    wa.setAttribute('rel', 'noopener noreferrer');
+    wa.setAttribute('aria-label', 'Chat with Yorker Tools Centre on WhatsApp');
+    wa.setAttribute('data-track', 'whatsapp_click');
+    wa.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.031 2C6.495 2 2 6.495 2 12.031c0 1.947.558 3.766 1.523 5.309L2 22l4.814-1.488A9.972 9.972 0 0 0 12.031 22c5.536 0 10.031-4.495 10.031-10.031C22.062 6.495 17.567 2 12.031 2zm0 18.286c-1.637 0-3.155-.47-4.444-1.282l-.319-.202-3.298 1.02.997-3.21-.212-.335a8.212 8.212 0 0 1-1.266-4.246c0-4.57 3.717-8.286 8.542-8.286 4.825 0 8.542 3.716 8.542 8.286 0 4.57-3.717 8.286-8.542 8.286zm4.673-6.19c-.256-.128-1.516-.748-1.751-.833-.235-.086-.406-.128-.577.128-.17.256-.662.833-.812 1.004-.15.17-.3.192-.556.064-.256-.128-1.082-.399-2.061-1.272-.763-.68-1.278-1.52-1.428-1.777-.15-.256-.016-.395.112-.522.115-.115.256-.3.385-.449.128-.15.17-.256.256-.427.086-.17.043-.321-.021-.449-.064-.128-.577-1.39-.79-1.903-.208-.5-.419-.432-.577-.44-.15-.008-.321-.01-.492-.01-.17 0-.449.064-.684.321-.235.256-.898.877-.898 2.138s.919 2.48 1.047 2.651c.128.17 1.808 2.76 4.38 3.871.612.264 1.09.422 1.463.541.615.195 1.174.168 1.616.102.493-.074 1.516-.62 1.73-1.218.213-.598.213-1.111.15-1.218-.064-.107-.235-.17-.492-.298z"/></svg><span>WhatsApp</span>';
+    document.body.appendChild(wa);
+  }
 })();
