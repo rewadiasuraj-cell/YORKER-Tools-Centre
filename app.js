@@ -418,6 +418,149 @@
     track('video_play', { video_title: b.dataset.title });
   }));
 
+  // ---------- Hero Banner Carousel ----------
+  const heroCarousel = $('.hero-carousel');
+  if (heroCarousel) {
+    const trackEl = $('#hero-slider-track', heroCarousel);
+    const slides = $$('.carousel-slide', trackEl);
+    const prevBtn = $('.carousel-nav--prev', heroCarousel);
+    const nextBtn = $('.carousel-nav--next', heroCarousel);
+    const dots = $$('.carousel-dot', heroCarousel);
+    const pauseBtn = $('.carousel-pause', heroCarousel);
+    const iconPause = $('.icon-pause', pauseBtn);
+    const iconPlay = $('.icon-play', pauseBtn);
+
+    let current = 0;
+    const count = slides.length;
+    let timer = null;
+    let isPlaying = true;
+    const intervalTime = 5000;
+
+    const goTo = (index, smooth = true) => {
+      if (index < 0) index = count - 1;
+      if (index >= count) index = 0;
+      current = index;
+
+      slides.forEach((s, i) => {
+        s.classList.toggle('is-active', i === current);
+        s.setAttribute('aria-hidden', i === current ? 'false' : 'true');
+      });
+      dots.forEach((d, i) => {
+        d.classList.toggle('is-active', i === current);
+        d.setAttribute('aria-selected', i === current ? 'true' : 'false');
+      });
+
+      const targetSlide = slides[current];
+      if (targetSlide) {
+        trackEl.scrollTo({
+          left: targetSlide.offsetLeft,
+          behavior: smooth ? 'smooth' : 'auto'
+        });
+      }
+    };
+
+    const next = () => goTo(current + 1);
+    const prev = () => goTo(current - 1);
+
+    const startAuto = () => {
+      if (timer) clearInterval(timer);
+      if (isPlaying) {
+        timer = setInterval(next, intervalTime);
+      }
+    };
+
+    const stopAuto = () => {
+      if (timer) {
+        clearInterval(timer);
+        timer = null;
+      }
+    };
+
+    const setPlaying = (play) => {
+      isPlaying = play;
+      if (pauseBtn) {
+        pauseBtn.dataset.state = play ? 'playing' : 'paused';
+        pauseBtn.setAttribute('aria-label', play ? 'Pause banner carousel' : 'Play banner carousel');
+        if (iconPause) iconPause.style.display = play ? 'block' : 'none';
+        if (iconPlay) iconPlay.style.display = play ? 'none' : 'block';
+      }
+      if (play) startAuto();
+      else stopAuto();
+    };
+
+    prevBtn?.addEventListener('click', () => { prev(); startAuto(); });
+    nextBtn?.addEventListener('click', () => { next(); startAuto(); });
+
+    dots.forEach((d, i) => {
+      d.addEventListener('click', () => { goTo(i); startAuto(); });
+    });
+
+    pauseBtn?.addEventListener('click', () => setPlaying(!isPlaying));
+
+    heroCarousel.addEventListener('mouseenter', stopAuto);
+    heroCarousel.addEventListener('mouseleave', () => { if (isPlaying) startAuto(); });
+    heroCarousel.addEventListener('focusin', stopAuto);
+    heroCarousel.addEventListener('focusout', () => { if (isPlaying) startAuto(); });
+
+    heroCarousel.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowLeft') { prev(); startAuto(); }
+      else if (e.key === 'ArrowRight') { next(); startAuto(); }
+    });
+
+    let scrollTimeout = null;
+    trackEl.addEventListener('scroll', () => {
+      if (scrollTimeout) clearTimeout(scrollTimeout);
+      scrollTimeout = setTimeout(() => {
+        const scrollLeft = trackEl.scrollLeft;
+        const width = trackEl.clientWidth;
+        if (width > 0) {
+          const newIndex = Math.round(scrollLeft / width);
+          if (newIndex >= 0 && newIndex < count && newIndex !== current) {
+            current = newIndex;
+            slides.forEach((s, i) => {
+              s.classList.toggle('is-active', i === current);
+              s.setAttribute('aria-hidden', i === current ? 'false' : 'true');
+            });
+            dots.forEach((d, i) => {
+              d.classList.toggle('is-active', i === current);
+              d.setAttribute('aria-selected', i === current ? 'true' : 'false');
+            });
+          }
+        }
+      }, 80);
+    }, { passive: true });
+
+    let touchStartX = 0;
+    let touchStartY = 0;
+    trackEl.addEventListener('touchstart', (e) => {
+      if (e.changedTouches && e.changedTouches[0]) {
+        touchStartX = e.changedTouches[0].screenX;
+        touchStartY = e.changedTouches[0].screenY;
+      }
+      stopAuto();
+    }, { passive: true });
+
+    trackEl.addEventListener('touchend', (e) => {
+      if (e.changedTouches && e.changedTouches[0]) {
+        const touchEndX = e.changedTouches[0].screenX;
+        const touchEndY = e.changedTouches[0].screenY;
+        const deltaX = touchEndX - touchStartX;
+        const deltaY = touchEndY - touchStartY;
+        if (Math.abs(deltaX) > 40 && Math.abs(deltaX) > Math.abs(deltaY)) {
+          if (deltaX < 0) next();
+          else prev();
+        }
+      }
+      if (isPlaying) startAuto();
+    }, { passive: true });
+
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      setPlaying(false);
+    } else {
+      startAuto();
+    }
+  }
+
   // ---------- floating WhatsApp button on non-PDP pages ----------
   if (!$('.mobile-bar') && !$('.floating-wa')) {
     const wa = document.createElement('a');
