@@ -12,6 +12,8 @@
 <link rel="stylesheet" href="./style.css">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Yorker Engineering Pvt Ltd","alternateName":"Yorker Tools Centre","url":"https://yorkertoolscentre.com/","logo":"https://yorkertoolscentre.com/wp-content/uploads/2025/08/logo-1-2-e1762243106378.png","sameAs":["https://www.facebook.com/yorkertoolscentre/","https://www.instagram.com/yorkertoolscentre/","https://www.youtube.com/channel/UCeBzUmk27hZVg0gaiVjolTA","https://in.pinterest.com/officeyorker/"],"contactPoint":[{"@type":"ContactPoint","telephone":"+91-11-45143354","contactType":"sales","areaServed":"IN","availableLanguage":["en","hi"]}],"address":{"@type":"PostalAddress","streetAddress":"5093, Gali Phatak Bans Wali, Sirkiwalan, Lal Kuan, Chawri Bazar","addressLocality":"Delhi","postalCode":"110006","addressCountry":"IN"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Yorker Tools Centre","url":"https://yorkertoolscentre.com/","potentialAction":{"@type":"SearchAction","target":"https://yorkertoolscentre.com/search/?q={q}","query-input":"required name=q"}}</script>
+<script src="./assets/js/gsap.min.js" defer></script>
+<script src="./assets/js/ScrollTrigger.min.js" defer></script>
 <script src="./app.js" defer></script>
 </head>
 <body>
@@ -61,9 +63,24 @@
 </dialog>
 <main id="main">
 <section class="hero-brand" aria-labelledby="h1">
+  <div class="hero-brand-bg-decor hero-watermark-1" aria-hidden="true">
+    <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="80" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 6"/>
+      <circle cx="100" cy="100" r="50" stroke="currentColor" stroke-width="1"/>
+      <path d="M100 0v200M0 100h200" stroke="currentColor" stroke-width="0.8" stroke-dasharray="2 4"/>
+    </svg>
+  </div>
+  <div class="hero-brand-bg-decor hero-watermark-2" aria-hidden="true">
+    <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="100,15 180,60 180,140 100,185 20,140 20,60" stroke="currentColor" stroke-width="1.5"/>
+      <polygon points="100,45 150,75 150,125 100,155 50,125 50,75" stroke="currentColor" stroke-width="1" stroke-dasharray="3 3"/>
+    </svg>
+  </div>
   <div class="container hero-brand-inner">
     <div class="hero-brand-copy scroll-trigger animate--slide-in" style="--animation-order: 1;">
-      <span class="hero-brand-eyebrow">Yorker Smart Industrial Engineering</span>
+      <div class="hero-brand-badge-wrap">
+        <span class="hero-brand-eyebrow"><span class="pulse-dot" aria-hidden="true"></span>Yorker Smart Industrial Engineering</span>
+      </div>
       <h1 id="h1" class="display">Tools That Do More.</h1>
       <p class="hero-brand-lede">At Yorker, we do not just build tools, we build trust. Our products are engineered for performance, durability, and precision, helping fabricators, contractors, and craftsmen across India get the job done faster, safer, and smarter.</p>
       <div class="hero-brand-actions">
@@ -73,22 +90,22 @@
       </div>
     </div>
     <div class="hero-brand-stats scroll-trigger animate--slide-in" style="--animation-order: 2;">
-      <div class="stat-card">
-        <span class="stat-num">2014</span>
+      <div class="stat-card" data-tilt>
+        <span class="stat-num" data-counter="2014">2014</span>
         <span class="stat-label">Founded in Delhi</span>
         <span class="stat-desc">A decade of manufacturing excellence</span>
       </div>
-      <div class="stat-card">
-        <span class="stat-num">293+</span>
+      <div class="stat-card" data-tilt>
+        <span class="stat-num" data-counter="293" data-suffix="+">293+</span>
         <span class="stat-label">Industrial Models</span>
         <span class="stat-desc">Power tools, blades, abrasives and tapes</span>
       </div>
-      <div class="stat-card">
-        <span class="stat-num">100%</span>
+      <div class="stat-card" data-tilt>
+        <span class="stat-num" data-counter="100" data-suffix="%">100%</span>
         <span class="stat-label">Copper Tested</span>
         <span class="stat-desc">Built for rigorous Indian site work</span>
       </div>
-      <div class="stat-card">
+      <div class="stat-card" data-tilt>
         <span class="stat-num">Pan-India</span>
         <span class="stat-label">Direct Wholesale</span>
         <span class="stat-desc">Chawri Bazar factory distribution</span>
@@ -143,7 +160,7 @@
         </div>
       </div>
       <ul class="showcase-track"><li class="showcase-slide scroll-trigger animate--slide-in" style="--animation-order: 1;">
-    <a class="cat-showcase-card" href="/product-category/power-tools/">
+    <a class="cat-showcase-card" data-tilt href="/product-category/power-tools/">
       <div class="cat-showcase-media media--hover-effect">
         <img src="https://yorkertoolscentre.com/wp-content/uploads/2026/02/googly.webp" alt="Power tools" loading="lazy" width="600" height="600">
       </div>
@@ -157,7 +174,7 @@
       </div>
     </a>
   </li><li class="showcase-slide scroll-trigger animate--slide-in" style="--animation-order: 2;">
-    <a class="cat-showcase-card" href="/product-category/diamond-saw-blades/">
+    <a class="cat-showcase-card" data-tilt href="/product-category/diamond-saw-blades/">
       <div class="cat-showcase-media media--hover-effect">
         <img src="https://yorkertoolscentre.com/wp-content/uploads/2026/02/tct-1024x998.webp" alt="Diamond saw blades" loading="lazy" width="600" height="600">
       </div>
@@ -171,7 +188,7 @@
       </div>
     </a>
   </li><li class="showcase-slide scroll-trigger animate--slide-in" style="--animation-order: 3;">
-    <a class="cat-showcase-card" href="/product-category/abrasives/">
+    <a class="cat-showcase-card" data-tilt href="/product-category/abrasives/">
       <div class="cat-showcase-media media--hover-effect">
         <img src="https://yorkertoolscentre.com/wp-content/uploads/2026/02/abrasive.webp" alt="Abrasives" loading="lazy" width="600" height="600">
       </div>
@@ -185,7 +202,7 @@
       </div>
     </a>
   </li><li class="showcase-slide scroll-trigger animate--slide-in" style="--animation-order: 4;">
-    <a class="cat-showcase-card" href="/product-category/measuring-tools/">
+    <a class="cat-showcase-card" data-tilt href="/product-category/measuring-tools/">
       <div class="cat-showcase-media media--hover-effect">
         <img src="https://yorkertoolscentre.com/wp-content/uploads/2025/10/BLACK-WHITE-600x600-1.webp" alt="Measuring tapes" loading="lazy" width="600" height="600">
       </div>
@@ -199,7 +216,7 @@
       </div>
     </a>
   </li><li class="showcase-slide scroll-trigger animate--slide-in" style="--animation-order: 5;">
-    <a class="cat-showcase-card" href="/product-category/tct-saw-blades/">
+    <a class="cat-showcase-card" data-tilt href="/product-category/tct-saw-blades/">
       <div class="cat-showcase-media media--hover-effect">
         <img src="https://yorkertoolscentre.com/wp-content/uploads/2026/02/tct-1024x998.webp" alt="TCT saw blades" loading="lazy" width="600" height="600">
       </div>
@@ -213,7 +230,7 @@
       </div>
     </a>
   </li><li class="showcase-slide scroll-trigger animate--slide-in" style="--animation-order: 6;">
-    <a class="cat-showcase-card" href="/product-category/hand-tools/">
+    <a class="cat-showcase-card" data-tilt href="/product-category/hand-tools/">
       <div class="cat-showcase-media media--hover-effect">
         <img src="https://yorkertoolscentre.com/wp-content/uploads/2026/02/combination-1024x1009.webp" alt="Hand tools" loading="lazy" width="600" height="600">
       </div>
@@ -262,7 +279,7 @@
         </div>
       </div>
       <ul class="showcase-track"><li class="showcase-slide scroll-trigger animate--slide-in" style="--animation-order: 1;">
-    <div class="prod-showcase-card">
+    <div class="prod-showcase-card" data-tilt>
       <div class="prod-showcase-media media--hover-effect">
         <span class="prod-showcase-badge">Bestseller</span>
         <a href="/product/pro-0835k-demolition-hammer/" tabindex="-1" aria-hidden="true">
@@ -280,7 +297,7 @@
       </div>
     </div>
   </li><li class="showcase-slide scroll-trigger animate--slide-in" style="--animation-order: 2;">
-    <div class="prod-showcase-card">
+    <div class="prod-showcase-card" data-tilt>
       <div class="prod-showcase-media media--hover-effect">
         <span class="prod-showcase-badge">Bestseller</span>
         <a href="/product/pro-26-rotary-hammer/" tabindex="-1" aria-hidden="true">
@@ -298,7 +315,7 @@
       </div>
     </div>
   </li><li class="showcase-slide scroll-trigger animate--slide-in" style="--animation-order: 3;">
-    <div class="prod-showcase-card">
+    <div class="prod-showcase-card" data-tilt>
       <div class="prod-showcase-media media--hover-effect">
         <span class="prod-showcase-badge">Bestseller</span>
         <a href="/product/pro-cm4sa-marble-cutter/" tabindex="-1" aria-hidden="true">
@@ -316,7 +333,7 @@
       </div>
     </div>
   </li><li class="showcase-slide scroll-trigger animate--slide-in" style="--animation-order: 4;">
-    <div class="prod-showcase-card">
+    <div class="prod-showcase-card" data-tilt>
       <div class="prod-showcase-media media--hover-effect">
         <span class="prod-showcase-badge">Bestseller</span>
         <a href="/product/anglegrinder-gy-6100/" tabindex="-1" aria-hidden="true">
@@ -334,7 +351,7 @@
       </div>
     </div>
   </li><li class="showcase-slide scroll-trigger animate--slide-in" style="--animation-order: 5;">
-    <div class="prod-showcase-card">
+    <div class="prod-showcase-card" data-tilt>
       <div class="prod-showcase-media media--hover-effect">
         <span class="prod-showcase-badge">Bestseller</span>
         <a href="/product/cordless-pro-wrench/" tabindex="-1" aria-hidden="true">
@@ -352,7 +369,7 @@
       </div>
     </div>
   </li><li class="showcase-slide scroll-trigger animate--slide-in" style="--animation-order: 6;">
-    <div class="prod-showcase-card">
+    <div class="prod-showcase-card" data-tilt>
       <div class="prod-showcase-media media--hover-effect">
         <span class="prod-showcase-badge">Bestseller</span>
         <a href="/product/y-series-eco-diamond-saw-blade-2/" tabindex="-1" aria-hidden="true">
@@ -370,7 +387,7 @@
       </div>
     </div>
   </li><li class="showcase-slide scroll-trigger animate--slide-in" style="--animation-order: 7;">
-    <div class="prod-showcase-card">
+    <div class="prod-showcase-card" data-tilt>
       <div class="prod-showcase-media media--hover-effect">
         <span class="prod-showcase-badge">Bestseller</span>
         <a href="/product/professional-cut-off-wheel-black-brown-green/" tabindex="-1" aria-hidden="true">
@@ -388,7 +405,7 @@
       </div>
     </div>
   </li><li class="showcase-slide scroll-trigger animate--slide-in" style="--animation-order: 8;">
-    <div class="prod-showcase-card">
+    <div class="prod-showcase-card" data-tilt>
       <div class="prod-showcase-media media--hover-effect">
         <span class="prod-showcase-badge">Bestseller</span>
         <a href="/product/measuring-tapes-black-white/" tabindex="-1" aria-hidden="true">
@@ -430,7 +447,7 @@
         </div>
       </div>
       <ul class="showcase-track"><li class="showcase-slide scroll-trigger animate--slide-in" style="--animation-order: 1;">
-    <div class="prod-showcase-card">
+    <div class="prod-showcase-card" data-tilt>
       <div class="prod-showcase-media media--hover-effect">
         <span class="prod-showcase-badge">New</span>
         <a href="/product/diamond-files-half-round/" tabindex="-1" aria-hidden="true">
@@ -448,7 +465,7 @@
       </div>
     </div>
   </li><li class="showcase-slide scroll-trigger animate--slide-in" style="--animation-order: 2;">
-    <div class="prod-showcase-card">
+    <div class="prod-showcase-card" data-tilt>
       <div class="prod-showcase-media media--hover-effect">
         <span class="prod-showcase-badge">New</span>
         <a href="/product/hand-file-set/" tabindex="-1" aria-hidden="true">
@@ -466,7 +483,7 @@
       </div>
     </div>
   </li><li class="showcase-slide scroll-trigger animate--slide-in" style="--animation-order: 3;">
-    <div class="prod-showcase-card">
+    <div class="prod-showcase-card" data-tilt>
       <div class="prod-showcase-media media--hover-effect">
         <span class="prod-showcase-badge">New</span>
         <a href="/product/professional-hand-files/" tabindex="-1" aria-hidden="true">
@@ -484,7 +501,7 @@
       </div>
     </div>
   </li><li class="showcase-slide scroll-trigger animate--slide-in" style="--animation-order: 4;">
-    <div class="prod-showcase-card">
+    <div class="prod-showcase-card" data-tilt>
       <div class="prod-showcase-media media--hover-effect">
         <span class="prod-showcase-badge">New</span>
         <a href="/product/glass-cutter/" tabindex="-1" aria-hidden="true">
@@ -502,7 +519,7 @@
       </div>
     </div>
   </li><li class="showcase-slide scroll-trigger animate--slide-in" style="--animation-order: 5;">
-    <div class="prod-showcase-card">
+    <div class="prod-showcase-card" data-tilt>
       <div class="prod-showcase-media media--hover-effect">
         <span class="prod-showcase-badge">New</span>
         <a href="/product/wooden-chisel/" tabindex="-1" aria-hidden="true">
@@ -520,7 +537,7 @@
       </div>
     </div>
   </li><li class="showcase-slide scroll-trigger animate--slide-in" style="--animation-order: 6;">
-    <div class="prod-showcase-card">
+    <div class="prod-showcase-card" data-tilt>
       <div class="prod-showcase-media media--hover-effect">
         <span class="prod-showcase-badge">New</span>
         <a href="/product/pvc-pipe-cutter/" tabindex="-1" aria-hidden="true">
@@ -538,7 +555,7 @@
       </div>
     </div>
   </li><li class="showcase-slide scroll-trigger animate--slide-in" style="--animation-order: 7;">
-    <div class="prod-showcase-card">
+    <div class="prod-showcase-card" data-tilt>
       <div class="prod-showcase-media media--hover-effect">
         <span class="prod-showcase-badge">New</span>
         <a href="/product/masonry-saw/" tabindex="-1" aria-hidden="true">
@@ -556,7 +573,7 @@
       </div>
     </div>
   </li><li class="showcase-slide scroll-trigger animate--slide-in" style="--animation-order: 8;">
-    <div class="prod-showcase-card">
+    <div class="prod-showcase-card" data-tilt>
       <div class="prod-showcase-media media--hover-effect">
         <span class="prod-showcase-badge">New</span>
         <a href="/product/hand-saw/" tabindex="-1" aria-hidden="true">

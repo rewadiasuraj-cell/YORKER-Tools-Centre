@@ -418,20 +418,205 @@
     track('video_play', { video_title: b.dataset.title });
   }));
 
-  // ---------- Scroll Trigger Animations (Yuri style) ----------
-  const scrollElements = $$('.scroll-trigger');
-  if ('IntersectionObserver' in window && scrollElements.length > 0) {
-    const scrollObserver = new IntersectionObserver((entries, observer) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('is-visible');
-          observer.unobserve(entry.target);
+  // ---------- GSAP & ScrollTrigger Animations & Parallax (Yuri style upgraded) ----------
+  const initGSAPAnimations = () => {
+    const prefersReducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const scrollElements = $$('.scroll-trigger');
+
+    if (prefersReducedMotion || typeof gsap === 'undefined') {
+      if ('IntersectionObserver' in window && scrollElements.length > 0) {
+        const scrollObserver = new IntersectionObserver((entries, observer) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('is-visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { rootMargin: '0px 0px -40px 0px' });
+        scrollElements.forEach((el) => scrollObserver.observe(el));
+      } else {
+        scrollElements.forEach((el) => el.classList.add('is-visible'));
+      }
+      return;
+    }
+
+    if (typeof ScrollTrigger !== 'undefined') {
+      gsap.registerPlugin(ScrollTrigger);
+    }
+
+    // 1. Hero Brand Entrance Timeline
+    const hero = $('.hero-brand');
+    if (hero) {
+      const heroTl = gsap.timeline({ defaults: { ease: 'power3.out' } });
+      const eyebrow = $('.hero-brand-eyebrow', hero);
+      const h1 = $('#h1', hero);
+      const lede = $('.hero-brand-lede', hero);
+      const actions = $$('.hero-brand-actions > *', hero);
+      const stats = $$('.stat-card', hero);
+
+      if (eyebrow) heroTl.from(eyebrow, { opacity: 0, y: -16, duration: 0.6 }, 0.1);
+      if (h1) heroTl.from(h1, { opacity: 0, y: 30, duration: 0.8 }, 0.25);
+      if (lede) heroTl.from(lede, { opacity: 0, y: 22, duration: 0.7 }, 0.45);
+      if (actions.length) heroTl.from(actions, { opacity: 0, y: 18, stagger: 0.08, duration: 0.55 }, 0.6);
+      if (stats.length) heroTl.from(stats, { opacity: 0, y: 32, stagger: 0.1, duration: 0.7, ease: 'back.out(1.2)' }, 0.75);
+
+      // 2. Background Parallax Watermarks
+      if (typeof ScrollTrigger !== 'undefined') {
+        const wm1 = $('.hero-watermark-1', hero);
+        const wm2 = $('.hero-watermark-2', hero);
+        if (wm1) {
+          gsap.to(wm1, {
+            yPercent: -35,
+            rotation: 12,
+            ease: 'none',
+            scrollTrigger: { trigger: hero, start: 'top top', end: 'bottom top', scrub: 0.8 }
+          });
+        }
+        if (wm2) {
+          gsap.to(wm2, {
+            yPercent: 25,
+            rotation: -8,
+            ease: 'none',
+            scrollTrigger: { trigger: hero, start: 'top top', end: 'bottom top', scrub: 1 }
+          });
+        }
+      }
+    }
+
+    // 3. Counter Roll-up Animation for Stat Numbers
+    const counterElements = $$('[data-counter]');
+    counterElements.forEach((el) => {
+      const targetVal = parseInt(el.getAttribute('data-counter'), 10);
+      if (isNaN(targetVal)) return;
+      const suffix = el.getAttribute('data-suffix') || '';
+      const startVal = targetVal > 1000 ? targetVal - 20 : 0;
+      const obj = { val: startVal };
+
+      if (typeof ScrollTrigger !== 'undefined') {
+        ScrollTrigger.create({
+          trigger: el,
+          start: 'top 92%',
+          once: true,
+          onEnter: () => {
+            gsap.to(obj, {
+              val: targetVal,
+              duration: 1.6,
+              ease: 'power2.out',
+              onUpdate: () => {
+                el.textContent = Math.round(obj.val) + suffix;
+              }
+            });
+          }
+        });
+      } else {
+        el.textContent = targetVal + suffix;
+      }
+    });
+
+    // 4. ScrollTrigger Entrance Reveals
+    if (typeof ScrollTrigger !== 'undefined') {
+      $$('.showcase-slider-wrap').forEach((slider) => {
+        const head = $('.showcase-slider-head', slider);
+        const track = $('.showcase-track', slider);
+        if (head) {
+          gsap.from(head, {
+            opacity: 0,
+            y: 28,
+            duration: 0.7,
+            ease: 'power2.out',
+            scrollTrigger: { trigger: head, start: 'top 88%', once: true }
+          });
+        }
+        if (track) {
+          const slides = $$('.showcase-slide', track).slice(0, 4);
+          gsap.from(slides, {
+            opacity: 0,
+            y: 36,
+            stagger: 0.08,
+            duration: 0.65,
+            ease: 'power2.out',
+            scrollTrigger: { trigger: track, start: 'top 85%', once: true }
+          });
         }
       });
-    }, { rootMargin: '0px 0px -40px 0px' });
-    scrollElements.forEach((el) => scrollObserver.observe(el));
+
+      const featureGrid = $('.features-grid');
+      if (featureGrid) {
+        gsap.from($$('.feature-card', featureGrid), {
+          opacity: 0,
+          y: 35,
+          stagger: 0.1,
+          duration: 0.7,
+          ease: 'power2.out',
+          scrollTrigger: { trigger: featureGrid, start: 'top 85%', once: true }
+        });
+      }
+
+      const seriesWrap = $('.series-wrap');
+      if (seriesWrap) {
+        gsap.from($$('.series-row', seriesWrap), {
+          opacity: 0,
+          x: -20,
+          stagger: 0.06,
+          duration: 0.6,
+          ease: 'power2.out',
+          scrollTrigger: { trigger: seriesWrap, start: 'top 85%', once: true }
+        });
+      }
+    }
+
+    // 5. Interactive 3D Card Tilt on Desktop
+    if (window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+      $$('[data-tilt]').forEach((card) => {
+        let bounds = null;
+        card.addEventListener('mouseenter', () => { bounds = card.getBoundingClientRect(); });
+        card.addEventListener('mousemove', (e) => {
+          if (!bounds) bounds = card.getBoundingClientRect();
+          const mouseX = e.clientX - bounds.left;
+          const mouseY = e.clientY - bounds.top;
+          const xPct = (mouseX / bounds.width - 0.5) * 2;
+          const yPct = (mouseY / bounds.height - 0.5) * 2;
+          gsap.to(card, {
+            rotationY: xPct * 4,
+            rotationX: -yPct * 4,
+            transformPerspective: 800,
+            duration: 0.3,
+            ease: 'power1.out'
+          });
+        });
+        card.addEventListener('mouseleave', () => {
+          bounds = null;
+          gsap.to(card, {
+            rotationX: 0,
+            rotationY: 0,
+            duration: 0.5,
+            ease: 'power2.out'
+          });
+        });
+      });
+
+      // 6. Magnetic Navigation Buttons
+      $$('.showcase-btn').forEach((btn) => {
+        let bBox = null;
+        btn.addEventListener('mouseenter', () => { bBox = btn.getBoundingClientRect(); });
+        btn.addEventListener('mousemove', (e) => {
+          if (!bBox) bBox = btn.getBoundingClientRect();
+          const dx = (e.clientX - (bBox.left + bBox.width / 2)) * 0.35;
+          const dy = (e.clientY - (bBox.top + bBox.height / 2)) * 0.35;
+          gsap.to(btn, { x: dx, y: dy, duration: 0.25, ease: 'power1.out' });
+        });
+        btn.addEventListener('mouseleave', () => {
+          bBox = null;
+          gsap.to(btn, { x: 0, y: 0, duration: 0.45, ease: 'elastic.out(1, 0.4)' });
+        });
+      });
+    }
+  };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initGSAPAnimations);
   } else {
-    scrollElements.forEach((el) => el.classList.add('is-visible'));
+    initGSAPAnimations();
   }
 
   // ---------- Product & Category Showcase Sliders (Yuri style) ----------
