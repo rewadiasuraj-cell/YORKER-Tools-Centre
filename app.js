@@ -418,148 +418,70 @@
     track('video_play', { video_title: b.dataset.title });
   }));
 
-  // ---------- Hero Banner Carousel ----------
-  const heroCarousel = $('.hero-carousel');
-  if (heroCarousel) {
-    const trackEl = $('#hero-slider-track', heroCarousel);
-    const slides = $$('.carousel-slide', trackEl);
-    const prevBtn = $('.carousel-nav--prev', heroCarousel);
-    const nextBtn = $('.carousel-nav--next', heroCarousel);
-    const dots = $$('.carousel-dot', heroCarousel);
-    const pauseBtn = $('.carousel-pause', heroCarousel);
-    const iconPause = $('.icon-pause', pauseBtn);
-    const iconPlay = $('.icon-play', pauseBtn);
+  // ---------- Scroll Trigger Animations (Yuri style) ----------
+  const scrollElements = $$('.scroll-trigger');
+  if ('IntersectionObserver' in window && scrollElements.length > 0) {
+    const scrollObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { rootMargin: '0px 0px -40px 0px' });
+    scrollElements.forEach((el) => scrollObserver.observe(el));
+  } else {
+    scrollElements.forEach((el) => el.classList.add('is-visible'));
+  }
 
-    let current = 0;
+  // ---------- Product & Category Showcase Sliders (Yuri style) ----------
+  $$('.showcase-slider-wrap').forEach((wrap) => {
+    const track = $('.showcase-track', wrap);
+    const prevBtn = $('.showcase-btn--prev', wrap);
+    const nextBtn = $('.showcase-btn--next', wrap);
+    const currentEl = $('.showcase-counter--current', wrap);
+    const totalEl = $('.showcase-counter--total', wrap);
+    if (!track) return;
+
+    const slides = $$('.showcase-slide', track);
     const count = slides.length;
-    let timer = null;
-    let isPlaying = true;
-    const intervalTime = 5000;
+    if (totalEl) totalEl.textContent = count;
 
-    const goTo = (index, smooth = true) => {
-      if (index < 0) index = count - 1;
-      if (index >= count) index = 0;
-      current = index;
+    const updateControls = () => {
+      const scrollLeft = track.scrollLeft;
+      const maxScroll = track.scrollWidth - track.clientWidth;
+      if (prevBtn) prevBtn.disabled = scrollLeft <= 4;
+      if (nextBtn) nextBtn.disabled = scrollLeft >= maxScroll - 4;
 
-      slides.forEach((s, i) => {
-        s.classList.toggle('is-active', i === current);
-        s.setAttribute('aria-hidden', i === current ? 'false' : 'true');
+      if (currentEl && slides.length > 0) {
+        const slideWidth = slides[0].offsetWidth + 20;
+        const activeIdx = Math.min(count, Math.max(1, Math.round(scrollLeft / slideWidth) + 1));
+        currentEl.textContent = activeIdx;
+      }
+    };
+
+    if (prevBtn) {
+      prevBtn.addEventListener('click', () => {
+        const step = track.clientWidth * 0.75;
+        track.scrollBy({ left: -step, behavior: 'smooth' });
       });
-      dots.forEach((d, i) => {
-        d.classList.toggle('is-active', i === current);
-        d.setAttribute('aria-selected', i === current ? 'true' : 'false');
+    }
+
+    if (nextBtn) {
+      nextBtn.addEventListener('click', () => {
+        const step = track.clientWidth * 0.75;
+        track.scrollBy({ left: step, behavior: 'smooth' });
       });
-
-      const targetSlide = slides[current];
-      if (targetSlide) {
-        trackEl.scrollTo({
-          left: targetSlide.offsetLeft,
-          behavior: smooth ? 'smooth' : 'auto'
-        });
-      }
-    };
-
-    const next = () => goTo(current + 1);
-    const prev = () => goTo(current - 1);
-
-    const startAuto = () => {
-      if (timer) clearInterval(timer);
-      if (isPlaying) {
-        timer = setInterval(next, intervalTime);
-      }
-    };
-
-    const stopAuto = () => {
-      if (timer) {
-        clearInterval(timer);
-        timer = null;
-      }
-    };
-
-    const setPlaying = (play) => {
-      isPlaying = play;
-      if (pauseBtn) {
-        pauseBtn.dataset.state = play ? 'playing' : 'paused';
-        pauseBtn.setAttribute('aria-label', play ? 'Pause banner carousel' : 'Play banner carousel');
-        if (iconPause) iconPause.style.display = play ? 'block' : 'none';
-        if (iconPlay) iconPlay.style.display = play ? 'none' : 'block';
-      }
-      if (play) startAuto();
-      else stopAuto();
-    };
-
-    prevBtn?.addEventListener('click', () => { prev(); startAuto(); });
-    nextBtn?.addEventListener('click', () => { next(); startAuto(); });
-
-    dots.forEach((d, i) => {
-      d.addEventListener('click', () => { goTo(i); startAuto(); });
-    });
-
-    pauseBtn?.addEventListener('click', () => setPlaying(!isPlaying));
-
-    heroCarousel.addEventListener('mouseenter', stopAuto);
-    heroCarousel.addEventListener('mouseleave', () => { if (isPlaying) startAuto(); });
-    heroCarousel.addEventListener('focusin', stopAuto);
-    heroCarousel.addEventListener('focusout', () => { if (isPlaying) startAuto(); });
-
-    heroCarousel.addEventListener('keydown', (e) => {
-      if (e.key === 'ArrowLeft') { prev(); startAuto(); }
-      else if (e.key === 'ArrowRight') { next(); startAuto(); }
-    });
+    }
 
     let scrollTimeout = null;
-    trackEl.addEventListener('scroll', () => {
+    track.addEventListener('scroll', () => {
       if (scrollTimeout) clearTimeout(scrollTimeout);
-      scrollTimeout = setTimeout(() => {
-        const scrollLeft = trackEl.scrollLeft;
-        const width = trackEl.clientWidth;
-        if (width > 0) {
-          const newIndex = Math.round(scrollLeft / width);
-          if (newIndex >= 0 && newIndex < count && newIndex !== current) {
-            current = newIndex;
-            slides.forEach((s, i) => {
-              s.classList.toggle('is-active', i === current);
-              s.setAttribute('aria-hidden', i === current ? 'false' : 'true');
-            });
-            dots.forEach((d, i) => {
-              d.classList.toggle('is-active', i === current);
-              d.setAttribute('aria-selected', i === current ? 'true' : 'false');
-            });
-          }
-        }
-      }, 80);
+      scrollTimeout = setTimeout(updateControls, 60);
     }, { passive: true });
 
-    let touchStartX = 0;
-    let touchStartY = 0;
-    trackEl.addEventListener('touchstart', (e) => {
-      if (e.changedTouches && e.changedTouches[0]) {
-        touchStartX = e.changedTouches[0].screenX;
-        touchStartY = e.changedTouches[0].screenY;
-      }
-      stopAuto();
-    }, { passive: true });
-
-    trackEl.addEventListener('touchend', (e) => {
-      if (e.changedTouches && e.changedTouches[0]) {
-        const touchEndX = e.changedTouches[0].screenX;
-        const touchEndY = e.changedTouches[0].screenY;
-        const deltaX = touchEndX - touchStartX;
-        const deltaY = touchEndY - touchStartY;
-        if (Math.abs(deltaX) > 40 && Math.abs(deltaX) > Math.abs(deltaY)) {
-          if (deltaX < 0) next();
-          else prev();
-        }
-      }
-      if (isPlaying) startAuto();
-    }, { passive: true });
-
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      setPlaying(false);
-    } else {
-      startAuto();
-    }
-  }
+    updateControls();
+  });
 
   // ---------- floating WhatsApp button on non-PDP pages ----------
   if (!$('.mobile-bar') && !$('.floating-wa')) {
